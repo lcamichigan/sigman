@@ -4,7 +4,7 @@ install:
   - ps: (New-Object Net.WebClient).DownloadFile('ftp://ftp.info-zip.org/pub/infozip/win32/zip300xn-x64.zip', [IO.Path]::Combine($env:APPVEYOR_BUILD_FOLDER, 'zip300xn-x64.zip'))
   - 7z x zip300xn-x64.zip -ozip300xn-x64
   - cd zip300xn-x64
-  - 7z x zip300xn-x64.zip -o%ProgramFiles%\zip300xn-x64
+  - 7z x zip300xn-x64.zip -o"%ProgramFiles%\zip300xn-x64"
   - set PATH=%PATH%;%ProgramFiles%\zip300xn-x64
   - cd ..
 
