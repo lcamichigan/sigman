@@ -7,9 +7,6 @@ build_script:
 
 test: off
 
-artifacts:
-  - path: Sigman.idml
-
 skip_tags: true
 
 on_finish:
