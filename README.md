@@ -181,7 +181,7 @@ Body text appears to be a form of
 [Century](https://en.wikipedia.org/wiki/Century_type_family). Headlines use a
 variety of typefaces: [Bodoni](https://en.wikipedia.org/wiki/Bodoni),
 [Caslon](https://en.wikipedia.org/wiki/Caslon),
-[Kaufmann](https://en.wikipedia.org/wiki/Kaufmann_(typeface))
+[Kaufmann](https://en.wikipedia.org/wiki/Kaufmann_(typeface)),
 [Memphis](https://en.wikipedia.org/wiki/Memphis_(typeface)), and either
 [Metro No. 2](https://en.wikipedia.org/wiki/Metro_(typeface)) or
 [Spartan](https://en.wikipedia.org/wiki/Spartan_(typeface)).
