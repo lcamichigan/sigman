@@ -24,7 +24,7 @@ You also need the OpenType version of the font
 [Linux Libertine](http://www.linuxlibertine.org), and additionally:
 
 | Font                                                                     | Download URL                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | [Arvo](https://fonts.google.com/specimen/Arvo)                           | https://github.com/google/fonts/raw/master/ofl/arvo/Arvo-Regular.ttf     |
 | [Damion](https://fonts.google.com/specimen/Damion)                       | https://github.com/google/fonts/raw/master/ofl/damion/Damion-Regular.ttf |
 | [League Spartan](https://www.theleagueofmoveabletype.com/league-spartan) | https://github.com/theleagueof/league-spartan/archive/master.zip         |
@@ -191,7 +191,7 @@ em.
 Here are the free fonts used in place of commercially available originals:
 
 | Font name  | Free alternative                                                         |
-|---------------------------------------------------------------------------------------|
+|------------|--------------------------------------------------------------------------|
 | Kaufmann   | [Damion](https://fonts.google.com/specimen/Damion)                       |
 | Memphis    | [Arvo](https://fonts.google.com/specimen/Arvo)                           |
 | Spartan    | [League Spartan](https://www.theleagueofmoveabletype.com/league-spartan) |
