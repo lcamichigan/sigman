@@ -60,16 +60,16 @@ in this repository, enter in PowerShell:
 
 ```powershell
 cd 'Sigman IDML'
-Start-Process "$env:ProgramFiles\zip300xn-x64\zip" -ArgumentList '-X0', '../Sigman.idml', 'mimetype' -Wait
-Start-Process "$env:ProgramFiles\zip300xn-x64\zip" -ArgumentList '--recurse-paths', '--no-dir-entries', '-X9', '../Sigman.idml', '*', '--exclude', 'mimetype' -Wait
+Start-Process "$env:ProgramFiles\zip300xn-x64\zip" -ArgumentList '-X0', '..\Sigman.idml', 'mimetype' -Wait
+Start-Process "$env:ProgramFiles\zip300xn-x64\zip" -ArgumentList '--recurse-paths', '--no-dir-entries', '-X9', '..\Sigman.idml', '*', '--exclude', 'mimetype' -Wait
 ```
 
 or in Command Prompt:
 
 ```batch
 cd "Sigman IDML"
-"%ProgramFiles%\zip300xn-x64\zip" -X0 ../Sigman.idml mimetype
-"%ProgramFiles%\zip300xn-x64\zip" --recurse-paths --no-dir-entries -X9 ../Sigman.idml * --exclude mimetype
+"%ProgramFiles%\zip300xn-x64\zip" -X0 ..\Sigman.idml mimetype
+"%ProgramFiles%\zip300xn-x64\zip" --recurse-paths --no-dir-entries -X9 ..\Sigman.idml * --exclude mimetype
 ```
 
 or in Terminal:
