@@ -1,0 +1,16 @@
+# https://www.appveyor.com/docs/appveyor-yml
+
+build_script:
+  - cd "Sigman IDML"
+  - zip -X0 ../Sigman.idml mimetype
+  - zip --recurse-paths --no-dir-entries -X9 ../Sigman.idml * --exclude mimetype
+
+test: off
+
+artifacts:
+  - path: Sigman.idml
+
+skip_tags: true
+
+on_finish:
+  - ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1')

@@ -1,5 +1,7 @@
 # Sigman
 
+[![Build status](https://ci.appveyor.com/api/projects/status/91u8bs1bmmv0jwn4?svg=true)](https://ci.appveyor.com/project/lcamichigan/sigman)
+
 This is a collection of resources for creating issues of _The Sigman_, the
 newsletter of [Sigma Zeta of ΛΧΑ](http://lcamichigan.com).
 
