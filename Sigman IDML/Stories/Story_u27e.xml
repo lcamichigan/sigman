@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="13.0">
+	<Story Self="u27e" IsEndnoteStory="false" UserText="true" AppliedTOCStyle="n" StoryTitle="$ID/" TrackChanges="false" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Body Text">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Equid quaerum aut et id magnatquo iustiaest, officae commolo reperitius moditaturit, solorum estiaspellut debis doluptat.</Content>
+				<Br />
+				<Content>Uptatqui odiatur, solutem invelicid et iunt.</Content>
+				<Br />
+				<Content>Secture, si utem. Optate conseribus mo dolendipiet alitiam doluptam ullignihilit fugition por aperorendant eturibuscia pelest que voluptatus aut occullam rest repernati se nienis nonseque nobitae modistiae nonsed et qui tem. Itas apicae aperume aut am rerovit aepratu repello reritasped moditissima volesequi dolores ipsum aut es et unt asi doluptur adit quatus minus quae susdae dolorerum reptaectur? At digenisitem am hil est, ad es et essedit iuntotatiame provit, corio digendam eos est, sinventi vid millatio. Aque dolorae. Agnatectur? Qui omnia quia as dolorerum doluptas apitia que nost hillam fugitio cust harum eum voluptatur, optiberuptur aliquid quam excearum repero et apiet et, volo et a susam faccat rem quid qui reperit pos mo beatium asserchil inum acepe nia voloreium fugiant, sit pelique nem hiliqui aut ut magnis venem. Et antia veliquia sumque non corporpore auda sit millis amendae nobis evelesed qui di volupta niet ut lacestio. Nequasitio. Epudam harum reiciis imint.</Content>
+				<Br />
+				<Content>Omnimag niendit aceatios sum facim acepe etur, ut od ulpa aligeni hillest ent aut repersp itatur am experia temporem res esedisimusa audicitam nimporum dolupta derum as endis autendicia doluptatur, odita quam, nonessin con plitisquat derro im sitatiate nonsenit lam velit illam quosam ene desecta tentemq uaessintetur aut et ad qui nem nostia nes quas min repudi occaboribus alicte offic toreptatibus aut eos sitatiscidio te pernatempore dolupta quam quidis nonsent.</Content>
+				<Br />
+				<Content>Harum, quaturiam, si cuptatur min culluptae volutes adisquidus etus.</Content>
+				<Br />
+				<Content>Dam, volectur, omnis de apiet, sunt quibustrum fugia eiur?</Content>
+				<Br />
+				<Content>Ulligni arumque vel int ium inctectat et quae num qui consequam at.</Content>
+				<Br />
+				<Content>Pis amus remporepti dolore con earunt.</Content>
+				<Br />
+				<Content>Igent et fuga. Unde aut autempo ribusae num quam ut laccus enihill entios mole.</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>
