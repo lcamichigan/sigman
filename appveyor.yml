@@ -9,13 +9,17 @@ install:
   - cd ..
 
 build_script:
-  - cd "Sigman IDML"
+  - cd "Envelope IDML"
+  - zip -X0 ..\Envelope.idml mimetype
+  - zip --recurse-paths --no-dir-entries -X9 ..\Envelope.idml * --exclude mimetype
+  - cd "..\Sigman IDML"
   - zip -X0 ..\Sigman.idml mimetype
   - zip --recurse-paths --no-dir-entries -X9 ..\Sigman.idml * --exclude mimetype
 
 test: off
 
 artifacts:
+  - path: Envelope.idml
   - path: Sigman.idml
 
 skip_tags: true
