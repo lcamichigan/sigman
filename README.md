@@ -19,10 +19,9 @@ To create an issue of _The Sigman_, you need
 https://www.adobe.com/creativecloud/plans.html for more information.
 
 You also need Sigman.idml, an InDesign IDML file created from the files in
-[Sigman IDML](https://github.com/lcamichigan/sigman/tree/master/Sigman%20IDML).
-The simplest way to get Sigman.idml is to download it from
-https://ci.appveyor.com/project/lcamichigan/sigman/build/artifacts, but you can
-also [create your own](#creating-an-indesign-file).
+[Sigman IDML](Sigman%20IDML). The simplest way to get Sigman.idml is to download
+it from https://ci.appveyor.com/project/lcamichigan/sigman/build/artifacts, but
+you can also [create your own](#creating-an-indesign-file).
 
 Finally, you need the OpenType version of the font
 [Linux Libertine](http://www.linuxlibertine.org), and additionally:
@@ -144,8 +143,7 @@ Zip is included with macOS.
 To create Sigman.idml, first download this repository as a ZIP archive. To do
 this, click [here](https://github.com/lcamichigan/sigman/archive/master.zip).
 Unzip the archive wherever you wish. To create a Sigman.idml file, `cd` to the
-[Sigman IDML](https://github.com/lcamichigan/sigman/tree/master/Sigman%20IDML)
-folder, and then enter in PowerShell:
+[Sigman IDML](Sigman%20IDML) folder, and then enter in PowerShell:
 
 ```powershell
 Start-Process "$env:ProgramFiles\zip300xn-x64\zip" -ArgumentList '-X0', '..\Sigman.idml', 'mimetype' -Wait
