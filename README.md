@@ -202,7 +202,7 @@ in LaTeX. To create this image using a standard installation of
 
 ```powershell
 (New-Object System.Net.WebClient).DownloadFile('https://github.com/lcamichigan/cross-and-crescent/releases/download/v1.4/cross-and-crescent.sty', [System.IO.Path]::Combine((Get-Location), 'cross-and-crescent.sty'))
-latex -jobname logo -output-format pdf '\documentclass{standalone}\usepackage{cross-and-crescent}\begin{document}\begin{tikzpicture}[scale=45pt/8cm]\crossAndCrescentSetMacros\draw[line width=0.5bp]\crossAndCrescentPath\end{tikzpicture}\end{document}'
+latex -jobname logo -output-format pdf '\documentclass{standalone}\usepackage{cross-and-crescent}\begin{document}\begin{tikzpicture}[scale=45bp/8cm]\crossAndCrescentSetMacros\draw[line width=0.5bp]\crossAndCrescentPath\end{tikzpicture}\end{document}'
 ```
 
 To create this image using a standard installation of
@@ -210,5 +210,5 @@ To create this image using a standard installation of
 
 ```sh
 curl --location --remote-name https://github.com/lcamichigan/cross-and-crescent/releases/download/v1.4/cross-and-crescent.sty
-latex -jobname logo -output-format pdf '\documentclass{standalone}\usepackage{cross-and-crescent}\begin{document}\begin{tikzpicture}[scale=45pt/8cm]\crossAndCrescentSetMacros\draw[line width=0.5bp]\crossAndCrescentPath\end{tikzpicture}\end{document}'
+latex -jobname logo -output-format pdf '\documentclass{standalone}\usepackage{cross-and-crescent}\begin{document}\begin{tikzpicture}[scale=45bp/8cm]\crossAndCrescentSetMacros\draw[line width=0.5bp]\crossAndCrescentPath\end{tikzpicture}\end{document}'
 ```
