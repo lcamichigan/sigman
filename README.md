@@ -8,21 +8,23 @@ newsletter of [Sigma Zeta of ΛΧΑ](http://lcamichigan.com).
 ## Contents
 
 * [Getting Started](#getting-started)
-  * [On Windows](#on-windows)
-  * [On macOS](#on-macos)
-* [Creating an InDesign File](#creating-an-indesign-file)
 * [Guidelines for Writing Articles](#guidelines-for-writing-articles)
+* [Creating an InDesign File](#creating-an-indesign-file)
 * [About _The Sigman_ Template](#about-the-sigman-template)
 
 ## Getting Started
 
-To create an issue of _The Sigman_, you need the free
-[Zip](http://www.info-zip.org/Zip.html) utility and
+To create an issue of _The Sigman_, you need
 [Adobe InDesign](https://www.adobe.com/products/indesign.html); visit
-https://www.adobe.com/creativecloud/plans.html for more information about
-InDesign.
+https://www.adobe.com/creativecloud/plans.html for more information.
 
-You also need the OpenType version of the font
+You also need Sigman.idml, an InDesign IDML file created from the files in
+[Sigman IDML](https://github.com/lcamichigan/sigman/tree/master/Sigman%20IDML).
+The simplest way to get Sigman.idml is to download it from
+https://ci.appveyor.com/project/lcamichigan/sigman/build/artifacts, but you can
+also [create your own](#creating-an-indesign-file).
+
+Finally, you need the OpenType version of the font
 [Linux Libertine](http://www.linuxlibertine.org), and additionally:
 
 | Font                                                                     | Download URL                                                             |
@@ -30,55 +32,6 @@ You also need the OpenType version of the font
 | [Arvo](https://fonts.google.com/specimen/Arvo)                           | https://github.com/google/fonts/raw/master/ofl/arvo/Arvo-Regular.ttf     |
 | [Damion](https://fonts.google.com/specimen/Damion)                       | https://github.com/google/fonts/raw/master/ofl/damion/Damion-Regular.ttf |
 | [League Spartan](https://www.theleagueofmoveabletype.com/league-spartan) | https://github.com/theleagueof/league-spartan/archive/master.zip         |
-
-### On Windows
-
-To install Zip:
-
-1. Click ftp://ftp.info-zip.org/pub/infozip/win32/zip300xn-x64.zip and download
-   zip300xn-x64.zip to your Downloads folder.
-
-2. Right-click zip300xn-x64.zip in your Downloads folder, choose Extract All,
-   and then click Extract to extract a folder named zip300xn-x64.
-
-3. Right-click zip300xn-x64.zip in the zip300xn-x64 folder you just extracted,
-   choose Extract All, and then click Extract to extract another folder named
-   zip300xn-x64.
-
-4. Move this second zip300xn-x64 folder to C:\Program Files.
-
-### On macOS
-
-Zip is included with macOS.
-
-## Creating an InDesign File
-
-First, download this repository as a ZIP archive. To do this, click
-[here](https://github.com/lcamichigan/sigman/archive/master.zip). Unzip the
-archive wherever you wish. To create a Sigman.idml InDesign file from the files
-in this repository, enter in PowerShell:
-
-```powershell
-cd 'Sigman IDML'
-Start-Process "$env:ProgramFiles\zip300xn-x64\zip" -ArgumentList '-X0', '..\Sigman.idml', 'mimetype' -Wait
-Start-Process "$env:ProgramFiles\zip300xn-x64\zip" -ArgumentList '--recurse-paths', '--no-dir-entries', '-X9', '..\Sigman.idml', '*', '--exclude', 'mimetype' -Wait
-```
-
-or in Command Prompt:
-
-```batch
-cd "Sigman IDML"
-"%ProgramFiles%\zip300xn-x64\zip" -X0 ..\Sigman.idml mimetype
-"%ProgramFiles%\zip300xn-x64\zip" --recurse-paths --no-dir-entries -X9 ..\Sigman.idml * --exclude mimetype
-```
-
-or in Terminal:
-
-```sh
-cd 'Sigman IDML'
-zip -X0 ../Sigman.idml mimetype
-zip --recurse-paths --no-dir-entries -X9 ../Sigman.idml * --exclude *.DS_Store mimetype
-```
 
 ## Guidelines for Writing Articles
 
@@ -168,6 +121,50 @@ Here are additional guidelines to keep in mind:
   first use, and then use the initialism only. Unless you’re writing about more
   than one Interfraternity Council, there’s no need to precede _IFC_ with
   _Michigan_ or _U&#x2011;M_. Don’t hyphenate _Interfraternity_.
+
+## Creating an InDesign File
+
+Creating a Sigman.idml file from the files in this repository requires the free
+[Zip](http://www.info-zip.org/Zip.html) utility. To install Zip on Windows:
+
+1. Click ftp://ftp.info-zip.org/pub/infozip/win32/zip300xn-x64.zip to download
+   zip300xn-x64.zip.
+
+2. Right-click zip300xn-x64.zip, choose Extract All, and then click Extract to
+   extract a folder named zip300xn-x64.
+
+3. Right-click zip300xn-x64.zip in the zip300xn-x64 folder you just extracted,
+   choose Extract All, and then click Extract to extract another folder named
+   zip300xn-x64.
+
+4. Move this second zip300xn-x64 folder to C:\Program Files.
+
+Zip is included with macOS.
+
+To create Sigman.idml, first download this repository as a ZIP archive. To do
+this, click [here](https://github.com/lcamichigan/sigman/archive/master.zip).
+Unzip the archive wherever you wish. To create a Sigman.idml file, `cd` to the
+[Sigman IDML](https://github.com/lcamichigan/sigman/tree/master/Sigman%20IDML)
+folder, and then enter in PowerShell:
+
+```powershell
+Start-Process "$env:ProgramFiles\zip300xn-x64\zip" -ArgumentList '-X0', '..\Sigman.idml', 'mimetype' -Wait
+Start-Process "$env:ProgramFiles\zip300xn-x64\zip" -ArgumentList '--recurse-paths', '--no-dir-entries', '-X9', '..\Sigman.idml', '*', '--exclude', 'mimetype' -Wait
+```
+
+or in Command Prompt:
+
+```batch
+"%ProgramFiles%\zip300xn-x64\zip" -X0 ..\Sigman.idml mimetype
+"%ProgramFiles%\zip300xn-x64\zip" --recurse-paths --no-dir-entries -X9 ..\Sigman.idml * --exclude mimetype
+```
+
+or in Terminal:
+
+```sh
+zip -X0 ../Sigman.idml mimetype
+zip --recurse-paths --no-dir-entries -X9 ../Sigman.idml * --exclude *.DS_Store mimetype
+```
 
 ## About _The Sigman_ Template
 
