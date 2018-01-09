@@ -11,6 +11,7 @@ newsletter of [Sigma Zeta of ΛΧΑ](http://lcamichigan.com).
 * [Guidelines for Writing Articles](#guidelines-for-writing-articles)
 * [Creating InDesign Files](#creating-indesign-files)
 * [About _The Sigman_ Template](#about-the-sigman-template)
+* [About the Envelope](#about-the-envelope)
 
 ## Getting Started
 
