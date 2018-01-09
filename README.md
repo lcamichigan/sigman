@@ -9,28 +9,30 @@ newsletter of [Sigma Zeta of ΛΧΑ](http://lcamichigan.com).
 
 * [Getting Started](#getting-started)
 * [Guidelines for Writing Articles](#guidelines-for-writing-articles)
-* [Creating an InDesign File](#creating-an-indesign-file)
+* [Creating InDesign Files](#creating-indesign-files)
 * [About _The Sigman_ Template](#about-the-sigman-template)
 
 ## Getting Started
 
-To create an issue of _The Sigman_, you need
-[Adobe InDesign](https://www.adobe.com/products/indesign.html); visit
-https://www.adobe.com/creativecloud/plans.html for more information.
+To create an issue of _The Sigman_, you need:
 
-You also need Sigman.idml, an InDesign IDML file created from the files in
-[Sigman IDML](Sigman%20IDML). The simplest way to get Sigman.idml is to download
-it from https://ci.appveyor.com/project/lcamichigan/sigman/build/artifacts, but
-you can also [create your own](#creating-an-indesign-file).
+* [Adobe InDesign](https://www.adobe.com/products/indesign.html). Visit
+  https://www.adobe.com/creativecloud/plans.html for more information.
 
-Finally, you need the OpenType version of the font
-[Linux Libertine](http://www.linuxlibertine.org), and additionally:
+* Envelope.idml and Sigman.idml. The easiest way to get these files is to
+  download them from
+  https://ci.appveyor.com/project/lcamichigan/sigman/build/artifacts, but you
+  can also [create your own](#creating-indesign-files).
 
-| Font                                                                     | Download URL                                                             |
-|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| [Arvo](https://fonts.google.com/specimen/Arvo)                           | https://github.com/google/fonts/raw/master/ofl/arvo/Arvo-Regular.ttf     |
-| [Damion](https://fonts.google.com/specimen/Damion)                       | https://github.com/google/fonts/raw/master/ofl/damion/Damion-Regular.ttf |
-| [League Spartan](https://www.theleagueofmoveabletype.com/league-spartan) | https://github.com/theleagueof/league-spartan/archive/master.zip         |
+* These fonts:
+
+  | Font                                                                     | Download URL                                                             |
+  |--------------------------------------------------------------------------|--------------------------------------------------------------------------|
+  | [Arvo](https://fonts.google.com/specimen/Arvo)                           | https://github.com/google/fonts/raw/master/ofl/arvo/Arvo-Regular.ttf     |
+  | [Damion](https://fonts.google.com/specimen/Damion)                       | https://github.com/google/fonts/raw/master/ofl/damion/Damion-Regular.ttf |
+  | [Gillius](http://arkandis.tuxfamily.org/adffonts.html)                   | http://arkandis.tuxfamily.org/fonts/Gillius-Collection-20110312.zip      |
+  | [League Spartan](https://www.theleagueofmoveabletype.com/league-spartan) | https://github.com/theleagueof/league-spartan/archive/master.zip         |
+  | [Linux Libertine](http://www.linuxlibertine.org) (OpenType version)      | http://mirrors.ctan.org/fonts/libertine.zip                              |
 
 ## Guidelines for Writing Articles
 
@@ -121,9 +123,9 @@ Here are additional guidelines to keep in mind:
   than one Interfraternity Council, there’s no need to precede _IFC_ with
   _Michigan_ or _U&#x2011;M_. Don’t hyphenate _Interfraternity_.
 
-## Creating an InDesign File
+## Creating InDesign Files
 
-Creating a Sigman.idml file from the files in this repository requires the free
+Creating InDesign IDML files from the files in this repository requires the free
 [Zip](http://www.info-zip.org/Zip.html) utility. To install Zip on Windows:
 
 1. Click ftp://ftp.info-zip.org/pub/infozip/win32/zip300xn-x64.zip to download
@@ -140,12 +142,15 @@ Creating a Sigman.idml file from the files in this repository requires the free
 
 Zip is included with macOS.
 
-To create Sigman.idml, first download this repository as a ZIP archive. To do
+To create InDesign files, first download this repository as a ZIP archive. To do
 this, click [here](https://github.com/lcamichigan/sigman/archive/master.zip).
-Unzip the archive wherever you wish. To create a Sigman.idml file, `cd` to the
-[Sigman IDML](Sigman%20IDML) folder, and then enter in PowerShell:
+Unzip the archive wherever you wish. Then, `cd` to the
+[Envelope IDML](Envelope%20IDML) folder and enter in PowerShell:
 
 ```powershell
+Start-Process "$env:ProgramFiles\zip300xn-x64\zip" -ArgumentList '-X0', '..\Envelope.idml', 'mimetype' -Wait
+Start-Process "$env:ProgramFiles\zip300xn-x64\zip" -ArgumentList '--recurse-paths', '--no-dir-entries', '-X9', '..\Envelope.idml', '*', '--exclude', 'mimetype' -Wait
+Set-Location '..\Sigman IDML'
 Start-Process "$env:ProgramFiles\zip300xn-x64\zip" -ArgumentList '-X0', '..\Sigman.idml', 'mimetype' -Wait
 Start-Process "$env:ProgramFiles\zip300xn-x64\zip" -ArgumentList '--recurse-paths', '--no-dir-entries', '-X9', '..\Sigman.idml', '*', '--exclude', 'mimetype' -Wait
 ```
@@ -153,6 +158,9 @@ Start-Process "$env:ProgramFiles\zip300xn-x64\zip" -ArgumentList '--recurse-path
 or in Command Prompt:
 
 ```batch
+"%ProgramFiles%\zip300xn-x64\zip" -X0 ..\Envelope.idml mimetype
+"%ProgramFiles%\zip300xn-x64\zip" --recurse-paths --no-dir-entries -X9 ..\Envelope.idml * --exclude mimetype
+cd "..\Sigman IDML"
 "%ProgramFiles%\zip300xn-x64\zip" -X0 ..\Sigman.idml mimetype
 "%ProgramFiles%\zip300xn-x64\zip" --recurse-paths --no-dir-entries -X9 ..\Sigman.idml * --exclude mimetype
 ```
@@ -160,6 +168,9 @@ or in Command Prompt:
 or in Terminal:
 
 ```sh
+zip -X0 ../Envelope.idml mimetype
+zip --recurse-paths --no-dir-entries -X9 ../Envelope.idml * --exclude *.DS_Store mimetype
+cd '..\Sigman IDML'
 zip -X0 ../Sigman.idml mimetype
 zip --recurse-paths --no-dir-entries -X9 ../Sigman.idml * --exclude *.DS_Store mimetype
 ```
