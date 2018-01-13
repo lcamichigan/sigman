@@ -146,7 +146,7 @@ Zip is included with macOS.
 To create InDesign files, first download this repository as a ZIP archive. To do
 this, click [here](https://github.com/lcamichigan/sigman/archive/master.zip).
 Unzip the archive wherever you wish. Then, `cd` to the
-[Envelope IDML](Envelope%20IDML) folder and enter in PowerShell:
+[Envelope IDML](Envelope%20IDML) folder and enter in PowerShell
 
 ```powershell
 Start-Process "$env:ProgramFiles\zip300xn-x64\zip" -ArgumentList '-X0', '..\Envelope.idml', 'mimetype' -Wait
@@ -156,7 +156,7 @@ Start-Process "$env:ProgramFiles\zip300xn-x64\zip" -ArgumentList '-X0', '..\Sigm
 Start-Process "$env:ProgramFiles\zip300xn-x64\zip" -ArgumentList '--recurse-paths', '--no-dir-entries', '-X9', '..\Sigman.idml', '*', '--exclude', 'mimetype' -Wait
 ```
 
-or in Command Prompt:
+or in Command Prompt
 
 ```batch
 "%ProgramFiles%\zip300xn-x64\zip" -X0 ..\Envelope.idml mimetype
@@ -166,7 +166,7 @@ cd "..\Sigman IDML"
 "%ProgramFiles%\zip300xn-x64\zip" --recurse-paths --no-dir-entries -X9 ..\Sigman.idml * --exclude mimetype
 ```
 
-or in Terminal:
+or in Terminal
 
 ```sh
 zip -X0 ../Envelope.idml mimetype
@@ -210,7 +210,7 @@ Here are the fonts used in place of the originals:
 The envelope includes an embedded image of a cross and crescent created using a
 [cross-and-crescent package](https://github.com/lcamichigan/cross-and-crescent)
 in LaTeX. To create this image using a standard installation of
-[TeX Live](https://www.tug.org/texlive/) on Windows, enter in PowerShell:
+[TeX Live](https://www.tug.org/texlive/) on Windows, enter in PowerShell
 
 ```powershell
 (New-Object System.Net.WebClient).DownloadFile('https://github.com/lcamichigan/cross-and-crescent/releases/download/v1.4/cross-and-crescent.sty', [System.IO.Path]::Combine((Get-Location), 'cross-and-crescent.sty'))
@@ -218,7 +218,7 @@ latex -jobname logo -output-format pdf '\documentclass{standalone}\usepackage{cr
 ```
 
 To create this image using a standard installation of
-[MacTeX](https://www.tug.org/mactex/) on macOS, enter in Terminal:
+[MacTeX](https://www.tug.org/mactex/) on macOS, enter in Terminal
 
 ```sh
 curl --location --remote-name https://github.com/lcamichigan/cross-and-crescent/releases/download/v1.4/cross-and-crescent.sty
