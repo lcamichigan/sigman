@@ -5,7 +5,7 @@
 		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Hyphenation="false">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="12" Capitalization="AllCaps">
-				<Content>Sigma Alumni Association Sigma Street Sigma City, State ZIP</Content>
+				<Content>Sigma Alumni Association Sigma Street Sigma City State ZIP</Content>
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 	</Story>
