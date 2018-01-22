@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <idPkg:Spread xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="13.0">
-	<Spread Self="u146" PageTransitionType="None" PageTransitionDirection="NotApplicable" PageTransitionDuration="Medium" AllowPageShuffle="true" ShowMasterItems="true" ItemTransform="1 0 0 1 0 972" PageCount="2" BindingLocation="1" FlattenerOverride="Default">
+	<Spread Self="u1db" PageTransitionType="None" PageTransitionDirection="NotApplicable" PageTransitionDuration="Medium" AllowPageShuffle="true" ShowMasterItems="true" ItemTransform="1 0 0 1 0 972" PageCount="2" BindingLocation="1" FlattenerOverride="Default">
 		<FlattenerPreference LineArtAndTextResolution="300" GradientAndMeshResolution="150" ClipComplexRegions="false" ConvertAllStrokesToOutlines="false" ConvertAllTextToOutlines="false">
 			<Properties>
 				<RasterVectorBalance type="double">50</RasterVectorBalance>
 			</Properties>
 		</FlattenerPreference>
-		<Page Self="u14b" TabOrder="" MasterPageTransform="1 0 0 1 0 0" AppliedMaster="ud5" OverrideList="" GeometricBounds="0 0 792 612" ItemTransform="1 0 0 1 -612 -396" AppliedAlternateLayout="ud4" LayoutRule="UseMaster" SnapshotBlendingMode="IgnoreLayoutSnapshots" OptionalPage="false" Name="2" AppliedTrapPreset="TrapPreset/$ID/kDefaultTrapStyleName" GridStartingPoint="TopOutside" UseMasterGrid="true">
+		<Page Self="u1e0" TabOrder="" MasterPageTransform="1 0 0 1 0 0" AppliedMaster="ub2" OverrideList="" GeometricBounds="0 0 792 612" ItemTransform="1 0 0 1 -612 -396" AppliedAlternateLayout="uad" LayoutRule="UseMaster" SnapshotBlendingMode="IgnoreLayoutSnapshots" OptionalPage="false" Name="2" AppliedTrapPreset="TrapPreset/$ID/kDefaultTrapStyleName" GridStartingPoint="TopOutside" UseMasterGrid="true">
 			<Properties>
 				<PageColor type="enumeration">UseMasterColor</PageColor>
 				<Descriptor type="list">
@@ -25,7 +25,7 @@
 				</Properties>
 			</GridDataInformation>
 		</Page>
-		<Page Self="ud3" TabOrder="" MasterPageTransform="1 0 0 1 0 0" AppliedMaster="ud5" OverrideList="" GeometricBounds="0 0 792 612" ItemTransform="1 0 0 1 0 -396" AppliedAlternateLayout="ud4" LayoutRule="UseMaster" SnapshotBlendingMode="IgnoreLayoutSnapshots" OptionalPage="false" Name="3" AppliedTrapPreset="TrapPreset/$ID/kDefaultTrapStyleName" GridStartingPoint="TopOutside" UseMasterGrid="true">
+		<Page Self="u1e1" TabOrder="" MasterPageTransform="1 0 0 1 0 0" AppliedMaster="ub2" OverrideList="" GeometricBounds="0 0 792 612" ItemTransform="1 0 0 1 0 -396" AppliedAlternateLayout="uad" LayoutRule="UseMaster" SnapshotBlendingMode="IgnoreLayoutSnapshots" OptionalPage="false" Name="3" AppliedTrapPreset="TrapPreset/$ID/kDefaultTrapStyleName" GridStartingPoint="TopOutside" UseMasterGrid="true">
 			<Properties>
 				<PageColor type="enumeration">UseMasterColor</PageColor>
 				<Descriptor type="list">
@@ -44,7 +44,7 @@
 				</Properties>
 			</GridDataInformation>
 		</Page>
-		<GraphicLine Self="u153" ContentType="Unassigned" LockState="None" OverriddenPageItemProps="" StrokeWeight="0.5" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="uc5" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Graphics Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 0.18999999999999773 -948" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<GraphicLine Self="u1e2" ContentType="Unassigned" LockState="None" OverriddenPageItemProps="" StrokeWeight="0.5" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Graphics Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 0.18999999999999773 -948" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="true">
@@ -67,7 +67,7 @@
 				</Properties>
 			</TextWrapPreference>
 		</GraphicLine>
-		<TextFrame Self="u171" ParentStory="u174" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="uc5" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 -521.6400000000002 -244.8800000000001" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<TextFrame Self="u1f6" ParentStory="u1e4" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 -521.6400000000002 -244.8800000000001" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="false">
@@ -102,7 +102,7 @@
 				</Properties>
 			</TextWrapPreference>
 		</TextFrame>
-		<TextFrame Self="u1f3" ParentStory="u1e1" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="uc5" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 -305.99999999999994 -351.3599999999999" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<TextFrame Self="u20c" ParentStory="u1fa" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 -305.99999999999994 -351.3599999999999" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="false">
@@ -137,7 +137,7 @@
 				</Properties>
 			</TextWrapPreference>
 		</TextFrame>
-		<TextFrame Self="u1fc" ParentStory="u1ff" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="uc5" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 305.9999999999999 -351.3599999999999" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<TextFrame Self="u222" ParentStory="u210" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 305.9999999999999 -351.3599999999999" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="false">
@@ -172,7 +172,7 @@
 				</Properties>
 			</TextWrapPreference>
 		</TextFrame>
-		<TextFrame Self="u492" ParentStory="u480" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" FillColor="Color/U-M Blue" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="uc5" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" CornerOption="RoundedCorner" TopLeftCornerOption="RoundedCorner" TopRightCornerOption="RoundedCorner" BottomLeftCornerOption="RoundedCorner" BottomRightCornerOption="RoundedCorner" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 -496 319.5" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<TextFrame Self="u238" ParentStory="u226" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" FillColor="Color/U-M Blue" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" CornerOption="RoundedCorner" TopLeftCornerOption="RoundedCorner" TopRightCornerOption="RoundedCorner" BottomLeftCornerOption="RoundedCorner" BottomRightCornerOption="RoundedCorner" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 -496 319.5" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="false">
@@ -202,7 +202,7 @@
 				</Properties>
 			</TextWrapPreference>
 		</TextFrame>
-		<Polygon Self="u49b" ContentType="Unassigned" StoryTitle="$ID/" OverriddenPageItemProps="" RightLineEnd="CurvedArrowHead" StrokeColor="Color/u49d" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="uc5" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Graphics Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 -0 -0 1 0 -972" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<Polygon Self="u23b" ContentType="Unassigned" StoryTitle="$ID/" OverriddenPageItemProps="" RightLineEnd="CurvedArrowHead" StrokeColor="Color/uca" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Graphics Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 -0 -0 1 0 -972" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="true">

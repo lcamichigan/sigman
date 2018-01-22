@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="13.0">
-	<Story Self="u337" IsEndnoteStory="false" UserText="true" AppliedTOCStyle="n" StoryTitle="$ID/" TrackChanges="false" AppliedNamedGrid="n">
+	<Story Self="u245" IsEndnoteStory="false" UserText="true" AppliedTOCStyle="n" StoryTitle="$ID/" TrackChanges="false" AppliedNamedGrid="n">
 		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
 		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header">
@@ -17,7 +17,7 @@
 				<Content>	</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PageNumberType="TextVariable">
-				<TextVariableInstance Self="u34b" Name="Issue Date" ResultText="month, year" AssociatedTextVariable="dTextVariablenIssue Date" />
+				<TextVariableInstance Self="u290" Name="Issue Date" ResultText="month, year" AssociatedTextVariable="dTextVariablenIssue Date" />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 	</Story>

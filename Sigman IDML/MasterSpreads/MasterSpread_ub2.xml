@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <idPkg:MasterSpread xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="13.0">
-	<MasterSpread Self="ud5" Name="A-Master" NamePrefix="A" BaseName="Master" ShowMasterItems="true" PageCount="2" PrimaryTextFrame="n" OverriddenPageItemProps="" ItemTransform="1 0 0 1 0 0">
+	<MasterSpread Self="ub2" Name="A-Master" NamePrefix="A" BaseName="Master" ShowMasterItems="true" PageCount="2" PrimaryTextFrame="n" OverriddenPageItemProps="" ItemTransform="1 0 0 1 0 0">
 		<Properties>
 			<PageColor type="enumeration">UseMasterColor</PageColor>
 		</Properties>
-		<Page Self="uda" TabOrder="" MasterPageTransform="1 0 0 1 0 0" AppliedMaster="n" OverrideList="" GeometricBounds="0 0 792 612" ItemTransform="1 0 0 1 -612 -396" AppliedAlternateLayout="n" LayoutRule="Off" SnapshotBlendingMode="IgnoreLayoutSnapshots" OptionalPage="false" Name="A" AppliedTrapPreset="TrapPreset/$ID/kDefaultTrapStyleName" GridStartingPoint="TopOutside" UseMasterGrid="true">
+		<Page Self="ub7" TabOrder="" MasterPageTransform="1 0 0 1 0 0" AppliedMaster="n" OverrideList="" GeometricBounds="0 0 792 612" ItemTransform="1 0 0 1 -612 -396" AppliedAlternateLayout="n" LayoutRule="Off" SnapshotBlendingMode="IgnoreLayoutSnapshots" OptionalPage="false" Name="A" AppliedTrapPreset="TrapPreset/$ID/kDefaultTrapStyleName" GridStartingPoint="TopOutside" UseMasterGrid="true">
 			<Properties>
 				<PageColor type="enumeration">UseMasterColor</PageColor>
 			</Properties>
@@ -15,7 +15,7 @@
 				</Properties>
 			</GridDataInformation>
 		</Page>
-		<Page Self="udb" TabOrder="" MasterPageTransform="1 0 0 1 0 0" AppliedMaster="n" OverrideList="" GeometricBounds="0 0 792 612" ItemTransform="1 0 0 1 0 -396" AppliedAlternateLayout="n" LayoutRule="Off" SnapshotBlendingMode="IgnoreLayoutSnapshots" OptionalPage="false" Name="A" AppliedTrapPreset="TrapPreset/$ID/kDefaultTrapStyleName" GridStartingPoint="TopOutside" UseMasterGrid="true">
+		<Page Self="ub8" TabOrder="" MasterPageTransform="1 0 0 1 0 0" AppliedMaster="n" OverrideList="" GeometricBounds="0 0 792 612" ItemTransform="1 0 0 1 0 -396" AppliedAlternateLayout="n" LayoutRule="Off" SnapshotBlendingMode="IgnoreLayoutSnapshots" OptionalPage="false" Name="A" AppliedTrapPreset="TrapPreset/$ID/kDefaultTrapStyleName" GridStartingPoint="TopOutside" UseMasterGrid="true">
 			<Properties>
 				<PageColor type="enumeration">UseMasterColor</PageColor>
 			</Properties>

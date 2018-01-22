@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="13.0">
-	<Story Self="u250" IsEndnoteStory="false" UserText="true" AppliedTOCStyle="n" StoryTitle="$ID/" TrackChanges="false" AppliedNamedGrid="n">
+	<Story Self="u271" IsEndnoteStory="false" UserText="true" AppliedTOCStyle="n" StoryTitle="$ID/" TrackChanges="false" AppliedNamedGrid="n">
 		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
 		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Image Source">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Lost Brothers Headline">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-				<Content>Photographer Name</Content>
+				<Content>Lost</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Image Caption">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Lost Brothers Introduction">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-				<Content>Image caption lorem ipsum dolor sit amet, consectetur adipiscing elit.</Content>
+				<Content>Please send email or mailing addresses of, or other information about, these ### lost brothers to info@lcamichigan.com. Sigma numbers are on the left.</Content>
+				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" />
 	</Story>
 </idPkg:Story>

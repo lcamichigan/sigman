@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="13.0">
-	<Story Self="u174" IsEndnoteStory="false" UserText="true" AppliedTOCStyle="n" StoryTitle="$ID/" TrackChanges="false" AppliedNamedGrid="n">
+	<Story Self="u1e4" IsEndnoteStory="false" UserText="true" AppliedTOCStyle="n" StoryTitle="$ID/" TrackChanges="false" AppliedNamedGrid="n">
 		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
 		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Masthead Publication Name">
@@ -155,28 +155,25 @@
 				<Content>Send alumni news and contributions to </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PageNumberType="TextVariable">
-				<TextVariableInstance Self="u1fb" Name="Contribution Address" ResultText="contribution address" AssociatedTextVariable="dTextVariablenContribution Address" />
+				<TextVariableInstance Self="u296" Name="Contribution Address" ResultText="contribution address" AssociatedTextVariable="dTextVariablenContribution Address" />
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
 				<Br />
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
 				<Content>Write to info@lcamichigan.com</Content>
 				<Br />
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
 				<Content>Subscribe to the email list at lcamichigan.com/alumni-news</Content>
 				<Br />
+				<Content>Follow Sigma on Twitter @</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-				<Content>Follow Sigma on Twitter </Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" BaselineShift="1">
-				<Content>@</Content>
+				<Content>lambdachiumich</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-				<Content>UMich_LambdaChi</Content>
 				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Masthead Contact Information">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
 				<Content>Like Sigma at facebook.com/lcasigmazeta</Content>
 				<Br />
 			</CharacterStyleRange>

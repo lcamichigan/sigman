@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="13.0">
-	<Story Self="u34d" IsEndnoteStory="false" UserText="true" AppliedTOCStyle="n" StoryTitle="$ID/" TrackChanges="false" AppliedNamedGrid="n">
+	<Story Self="u16c" IsEndnoteStory="false" UserText="true" AppliedTOCStyle="n" StoryTitle="$ID/" TrackChanges="false" AppliedNamedGrid="n">
 		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
 		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Lost Brother">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Image Source">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-				<Content>	###	Name </Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Lost Brother Class Year">
-				<Content>’##</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Photographer Name</Content>
 				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Image Caption">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Image caption lorem ipsum dolor sit amet, consectetur adipiscing elit.</Content>
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 	</Story>
