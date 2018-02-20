@@ -16,7 +16,7 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
 				<Content>	</Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PageNumberType="TextVariable">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PageNumberType="TextVariable" OTFFigureStyle="ProportionalLining">
 				<TextVariableInstance Self="u290" Name="Issue Date" ResultText="month, year" AssociatedTextVariable="dTextVariablenIssue Date" />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
