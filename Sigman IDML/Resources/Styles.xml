@@ -91,6 +91,18 @@
 				<AppliedFont type="string">Linux Libertine O</AppliedFont>
 			</Properties>
 		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Obituary" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" StyleUniqueId="c755c1cf-5022-4fdc-bbfb-b2b0dff08902" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" Name="Obituary" Imported="false" NextStyle="ParagraphStyle/Obituary" IncludeClass="true" FirstLineIndent="0" Hyphenation="false" SpaceBefore="4" GridAlignment="None">
+			<Properties>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<BasedOn type="object">ParagraphStyle/Body Text</BasedOn>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Obituaries Headline" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" StyleUniqueId="1a33101a-de3a-496a-a8ee-f9587fb21180" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" Name="Obituaries Headline" Imported="false" NextStyle="ParagraphStyle/Obituaries Headline" IncludeClass="true" Tracking="100" Capitalization="AllCaps" Hyphenation="false" Justification="CenterAlign">
+			<Properties>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+			</Properties>
+		</ParagraphStyle>
 		<ParagraphStyle Self="ParagraphStyle/Email List Reminder" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" StyleUniqueId="16e46c04-5337-4b47-83a0-2d4b2eb8ac09" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" Name="Email List Reminder" Imported="false" NextStyle="ParagraphStyle/Email List Reminder" IncludeClass="true" FillColor="Color/U-M Maize" PointSize="36" BaselineShift="3" Hyphenation="false" OTFFigureStyle="ProportionalOldstyle" Justification="CenterAlign">
 			<Properties>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
