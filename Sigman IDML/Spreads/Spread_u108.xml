@@ -738,8 +738,8 @@
 					<GeometryPathType PathOpen="false">
 						<PathPointArray>
 							<PathPointType Anchor="-87.11999999999995 -129.6" LeftDirection="-87.11999999999995 -129.6" RightDirection="-87.11999999999995 -129.6" />
-							<PathPointType Anchor="-87.11999999999995 14.400000000000006" LeftDirection="-87.11999999999995 14.400000000000006" RightDirection="-87.11999999999995 14.400000000000006" />
-							<PathPointType Anchor="86.88000000000004 14.400000000000006" LeftDirection="86.88000000000004 14.400000000000006" RightDirection="86.88000000000004 14.400000000000006" />
+							<PathPointType Anchor="-87.11999999999995 -79.10000000000001" LeftDirection="-87.11999999999995 -79.10000000000001" RightDirection="-87.11999999999995 -79.10000000000001" />
+							<PathPointType Anchor="86.88000000000004 -79.10000000000001" LeftDirection="86.88000000000004 -79.10000000000001" RightDirection="86.88000000000004 -79.10000000000001" />
 							<PathPointType Anchor="86.88000000000004 -129.6" LeftDirection="86.88000000000004 -129.6" RightDirection="86.88000000000004 -129.6" />
 						</PathPointArray>
 					</GeometryPathType>
@@ -751,7 +751,7 @@
 					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 				</Properties>
 			</ObjectExportOption>
-			<TextFramePreference TextColumnMaxWidth="0" TextColumnCount="1" TextColumnFixedWidth="174">
+			<TextFramePreference TextColumnMaxWidth="0" AutoSizingType="HeightOnly" AutoSizingReferencePoint="TopCenterPoint" TextColumnCount="1" TextColumnFixedWidth="174">
 				<Properties>
 					<InsetSpacing type="list">
 						<ListItem type="unit">0</ListItem>
@@ -767,15 +767,15 @@
 				</Properties>
 			</TextWrapPreference>
 		</TextFrame>
-		<TextFrame Self="u167" ParentStory="u155" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 123.11999999999995 -89.58515696433112" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<TextFrame Self="u167" ParentStory="u155" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 123.11999999999995 -88.71312327292492" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="false">
 						<PathPointArray>
-							<PathPointType Anchor="-87.11999999999995 -30.41484303566889" LeftDirection="-87.11999999999995 -30.41484303566889" RightDirection="-87.11999999999995 -30.41484303566889" />
-							<PathPointType Anchor="-87.11999999999995 83.58515696433113" LeftDirection="-87.11999999999995 83.58515696433113" RightDirection="-87.11999999999995 83.58515696433113" />
-							<PathPointType Anchor="86.88000000000004 83.58515696433113" LeftDirection="86.88000000000004 83.58515696433113" RightDirection="86.88000000000004 83.58515696433113" />
-							<PathPointType Anchor="86.88000000000004 -30.41484303566889" LeftDirection="86.88000000000004 -30.41484303566889" RightDirection="86.88000000000004 -30.41484303566889" />
+							<PathPointType Anchor="-87.11999999999995 -30.414843035668895" LeftDirection="-87.11999999999995 -30.414843035668895" RightDirection="-87.11999999999995 -30.414843035668895" />
+							<PathPointType Anchor="-87.11999999999995 82.71312327292486" LeftDirection="-87.11999999999995 82.71312327292486" RightDirection="-87.11999999999995 82.71312327292486" />
+							<PathPointType Anchor="86.88000000000004 82.71312327292486" LeftDirection="86.88000000000004 82.71312327292486" RightDirection="86.88000000000004 82.71312327292486" />
+							<PathPointType Anchor="86.88000000000004 -30.414843035668895" LeftDirection="86.88000000000004 -30.414843035668895" RightDirection="86.88000000000004 -30.414843035668895" />
 						</PathPointArray>
 					</GeometryPathType>
 				</PathGeometry>
@@ -786,7 +786,7 @@
 					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 				</Properties>
 			</ObjectExportOption>
-			<TextFramePreference TextColumnMaxWidth="0" TextColumnCount="1" TextColumnFixedWidth="174" VerticalJustification="BottomAlign">
+			<TextFramePreference TextColumnMaxWidth="0" AutoSizingType="HeightOnly" AutoSizingReferencePoint="BottomCenterPoint" TextColumnCount="1" TextColumnFixedWidth="174" VerticalJustification="BottomAlign">
 				<Properties>
 					<InsetSpacing type="list">
 						<ListItem type="unit">0</ListItem>

@@ -300,7 +300,13 @@
 				<AppliedFont type="string">Linux Libertine O</AppliedFont>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Calendar Note" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" StyleUniqueId="f0b08b66-0866-49b5-a5db-6c759572dde8" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" Name="Calendar Note" Imported="false" NextStyle="ParagraphStyle/Calendar Note" IncludeClass="true" FontStyle="Italic" SpaceBefore="2" SpaceAfter="2" Justification="CenterAlign">
+		<ParagraphStyle Self="ParagraphStyle/Sport Schedule Header" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" StyleUniqueId="057c1c1e-ae3c-462d-9961-bfd7690d8faf" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" Name="Sport Schedule Header" Imported="false" NextStyle="ParagraphStyle/Sport Schedule Header" IncludeClass="true" FontStyle="Italic" PointSize="12" SpaceBefore="2" SpaceAfter="2" Justification="CenterAlign">
+			<Properties>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Sport Schedule Footer" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" StyleUniqueId="c0c07a12-fd23-4703-a517-5eb5e2ac0de4" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" Name="Sport Schedule Footer" Imported="false" NextStyle="ParagraphStyle/Sport Schedule Footer" IncludeClass="true" FontStyle="Italic" SpaceBefore="2" SpaceAfter="2" Justification="CenterAlign">
 			<Properties>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
 				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>

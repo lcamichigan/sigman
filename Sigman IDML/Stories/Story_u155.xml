@@ -3,7 +3,7 @@
 	<Story Self="u155" IsEndnoteStory="false" UserText="true" AppliedTOCStyle="n" StoryTitle="$ID/" TrackChanges="false" AppliedNamedGrid="n">
 		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
 		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Calendar Note">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Sport Schedule Header">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
 				<Content>Going to a sport game? </Content>
 			</CharacterStyleRange>
@@ -56,7 +56,7 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Calendar Note">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Sport Schedule Footer">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
 				<Content>See more and get tickets at </Content>
 				<HyperlinkTextSource Self="u291" Name="Hyperlink 1" Hidden="false" AppliedCharacterStyle="n">
