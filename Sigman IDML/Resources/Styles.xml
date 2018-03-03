@@ -103,11 +103,11 @@
 				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Email List Reminder" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" StyleUniqueId="16e46c04-5337-4b47-83a0-2d4b2eb8ac09" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" Name="Email List Reminder" Imported="false" NextStyle="ParagraphStyle/Email List Reminder" IncludeClass="true" FillColor="Color/U-M Maize" PointSize="36" BaselineShift="3" Hyphenation="false" OTFFigureStyle="ProportionalOldstyle" Justification="CenterAlign">
+		<ParagraphStyle Self="ParagraphStyle/Email List Reminder" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" StyleUniqueId="f54814c8-6e02-422c-a353-d22c2ea53f3c" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" Name="Email List Reminder" Imported="false" NextStyle="ParagraphStyle/Email List Reminder" IncludeClass="true" FillColor="Color/U-M Maize" PointSize="30" Hyphenation="false" OTFFigureStyle="ProportionalOldstyle" Justification="CenterAlign">
 			<Properties>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
 				<BasedOn type="string">$ID/[No paragraph style]</BasedOn>
-				<Leading type="unit">34</Leading>
+				<Leading type="unit">28</Leading>
 				<AppliedFont type="string">Damion</AppliedFont>
 			</Properties>
 		</ParagraphStyle>

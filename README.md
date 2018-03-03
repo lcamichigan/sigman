@@ -35,6 +35,10 @@ To create an issue of _The Sigman_, you need:
   | [League Spartan](https://www.theleagueofmoveabletype.com/league-spartan) | https://github.com/theleagueof/league-spartan/archive/master.zip         |
   | [Linux Libertine](http://www.linuxlibertine.org) (OpenType version)      | http://mirrors.ctan.org/fonts/libertine.zip                              |
 
+## Preparing an Issue
+
+http://ro.umich.edu/calendar/
+
 ## Guidelines for Writing Articles
 
 Unless you’re the chapter president writing the High Alpha letter, or the alumni
