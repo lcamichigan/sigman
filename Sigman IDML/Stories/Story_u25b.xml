@@ -10,9 +10,6 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Lost Brother Class Year">
 				<Content>’##</Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-				<Br />
-			</CharacterStyleRange>
 		</ParagraphStyleRange>
 	</Story>
 </idPkg:Story>

@@ -12,9 +12,7 @@
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Lost Brothers Introduction">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
 				<Content>Please send email or mailing addresses of, or other information about, these ### lost brothers to info@lcamichigan.com. Sigma numbers are on the left.</Content>
-				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" />
 	</Story>
 </idPkg:Story>
