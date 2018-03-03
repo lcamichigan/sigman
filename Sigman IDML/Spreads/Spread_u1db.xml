@@ -18,7 +18,7 @@
 					<ListItem type="string"></ListItem>
 				</Descriptor>
 			</Properties>
-			<MarginPreference ColumnDirection="Horizontal" ColumnCount="3" ColumnGutter="8.64" Top="36" Bottom="36" Left="36" Right="36" ColumnsPositions="0 174.24 182.88 357.12 365.76 540" />
+			<MarginPreference ColumnDirection="Horizontal" ColumnCount="3" ColumnGutter="9" Top="36" Bottom="36" Left="36" Right="36" ColumnsPositions="0 174 183 357 366 540" />
 			<GridDataInformation FontStyle="Regular" PointSize="12" CharacterAki="0" LineAki="9" HorizontalScale="100" VerticalScale="100" LineAlignment="LeftOrTopLineJustify" GridAlignment="AlignEmCenter" CharacterAlignment="AlignEmCenter">
 				<Properties>
 					<AppliedFont type="string">Minion Pro</AppliedFont>
@@ -37,7 +37,7 @@
 					<ListItem type="string"></ListItem>
 				</Descriptor>
 			</Properties>
-			<MarginPreference ColumnDirection="Horizontal" ColumnCount="3" ColumnGutter="8.64" Top="36" Bottom="36" Left="36" Right="36" ColumnsPositions="0 174.24 182.88 357.12 365.76 540" />
+			<MarginPreference ColumnDirection="Horizontal" ColumnCount="3" ColumnGutter="9" Top="36" Bottom="36" Left="36" Right="36" ColumnsPositions="0 174 183 357 366 540" />
 			<GridDataInformation FontStyle="Regular" PointSize="12" CharacterAki="0" LineAki="9" HorizontalScale="100" VerticalScale="100" LineAlignment="LeftOrTopLineJustify" GridAlignment="AlignEmCenter" CharacterAlignment="AlignEmCenter">
 				<Properties>
 					<AppliedFont type="string">Minion Pro</AppliedFont>
