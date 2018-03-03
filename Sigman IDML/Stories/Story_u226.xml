@@ -4,7 +4,10 @@
 		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
 		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Email List Reminder">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="30" BaselineShift="0">
+				<Properties>
+					<Leading type="unit">28</Leading>
+				</Properties>
 				<Content>Subscribe Today!</Content>
 			</CharacterStyleRange>
 		</ParagraphStyleRange>

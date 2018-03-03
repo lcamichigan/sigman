@@ -155,7 +155,13 @@
 				<Content>Send alumni news and contributions to </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PageNumberType="TextVariable">
-				<TextVariableInstance Self="u296" Name="Contribution Address" ResultText="contribution address" AssociatedTextVariable="dTextVariablenContribution Address" />
+				<TextVariableInstance Self="u296" Name="Contribution Address Line 1" ResultText="contribution address line 1" AssociatedTextVariable="dTextVariablenContribution Address Line 1" />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PageNumberType="TextVariable">
+				<TextVariableInstance Self="u2e9" Name="Contribution Address Line 2" ResultText="contribution address line 2" AssociatedTextVariable="dTextVariablenContribution Address Line 2" />
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
 				<Br />

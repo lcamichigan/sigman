@@ -46,10 +46,17 @@
 	<TextVariable Self="dTextVariablenChapter Number" Name="Chapter Number" VariableType="ChapterNumberType">
 		<ChapterNumberVariablePreference TextBefore="" Format="Current" TextAfter="" />
 	</TextVariable>
-	<TextVariable Self="dTextVariablenContribution Address" Name="Contribution Address" VariableType="CustomTextType">
+	<TextVariable Self="dTextVariablenContribution Address Line 1" Name="Contribution Address Line 1" VariableType="CustomTextType">
 		<CustomTextVariablePreference>
 			<Properties>
-				<Contents type="string">contribution address</Contents>
+				<Contents type="string">contribution address line 1</Contents>
+			</Properties>
+		</CustomTextVariablePreference>
+	</TextVariable>
+	<TextVariable Self="dTextVariablenContribution Address Line 2" Name="Contribution Address Line 2" VariableType="CustomTextType">
+		<CustomTextVariablePreference>
+			<Properties>
+				<Contents type="string">contribution address line 2</Contents>
 			</Properties>
 		</CustomTextVariablePreference>
 	</TextVariable>

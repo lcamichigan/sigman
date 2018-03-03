@@ -177,10 +177,10 @@
 				<PathGeometry>
 					<GeometryPathType PathOpen="false">
 						<PathPointArray>
-							<PathPointType Anchor="-80.00000000000023 -43.5" LeftDirection="-80.00000000000023 -43.5" RightDirection="-80.00000000000023 -43.5" />
+							<PathPointType Anchor="-80.00000000000023 -31.5" LeftDirection="-80.00000000000023 -31.5" RightDirection="-80.00000000000023 -31.5" />
 							<PathPointType Anchor="-80.00000000000023 40.5" LeftDirection="-80.00000000000023 40.5" RightDirection="-80.00000000000023 40.5" />
 							<PathPointType Anchor="94 40.5" LeftDirection="94 40.5" RightDirection="94 40.5" />
-							<PathPointType Anchor="94 -43.5" LeftDirection="94 -43.5" RightDirection="94 -43.5" />
+							<PathPointType Anchor="94 -31.5" LeftDirection="94 -31.5" RightDirection="94 -31.5" />
 						</PathPointArray>
 					</GeometryPathType>
 				</PathGeometry>
@@ -208,8 +208,8 @@
 					<GeometryPathType PathOpen="true">
 						<PathPointArray>
 							<PathPointType Anchor="-576.0000045333252 1295.5" LeftDirection="-554.2105308869047 1295.5" RightDirection="-590.1007867304834 1295.5" />
-							<PathPointType Anchor="-594 1206.5" LeftDirection="-595.2168652940314 1250.7127723498104" RightDirection="-592.5 1152" />
-							<PathPointType Anchor="-553.5 1148.2597961535937" LeftDirection="-553.5 1148.2597961535937" RightDirection="-553.5 1148.2597961535937" />
+							<PathPointType Anchor="-594 1213.551107386509" LeftDirection="-595.2168652940314 1254.2610819195352" RightDirection="-592.5 1163.3689203366748" />
+							<PathPointType Anchor="-553.5 1159.9250376022737" LeftDirection="-553.5 1159.9250376022737" RightDirection="-553.5 1159.9250376022737" />
 						</PathPointArray>
 					</GeometryPathType>
 				</PathGeometry>
