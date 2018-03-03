@@ -11,7 +11,7 @@
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Obituary">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-				<Content>Σ ### First M. Last ’yy died on Month dd, yyyy.</Content>
+				<Content>Σ ### First M. Last ’YY died on Month DD, YYYY.</Content>
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 	</Story>
