@@ -16,10 +16,7 @@
 				<Content>First Last ’YY, Mon. ’YY</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-				<Content> — Note</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-				<Content>.</Content>
+				<Content> — Note.</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>

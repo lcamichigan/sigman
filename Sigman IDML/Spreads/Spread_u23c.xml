@@ -83,7 +83,7 @@
 				</Properties>
 			</TextWrapPreference>
 		</TextFrame>
-		<TextFrame Self="u26d" ParentStory="u25b" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 -444.92 83.03999999999974" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<TextFrame Self="u26d" ParentStory="u25b" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 -444.92 79.03999999999974" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="false">
@@ -103,7 +103,7 @@
 				</Properties>
 			</ObjectExportOption>
 			<BaselineFrameGridOption UseCustomBaselineFrameGrid="true" BaselineFrameGridIncrement="9.6" />
-			<TextFramePreference TextColumnMaxWidth="0" TextColumnCount="5" TextColumnGutter="5" TextColumnFixedWidth="105">
+			<TextFramePreference TextColumnMaxWidth="0" TextColumnCount="5" TextColumnGutter="0" TextColumnFixedWidth="109">
 				<Properties>
 					<InsetSpacing type="list">
 						<ListItem type="unit">0</ListItem>
@@ -154,15 +154,15 @@
 				</Properties>
 			</TextWrapPreference>
 		</TextFrame>
-		<TextFrame Self="u283" ParentStory="u271" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 -503.75 42" ParentInterfaceChangeCount="138508 432165790 138558 374143024" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<TextFrame Self="u283" ParentStory="u271" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 -503.75 42" ParentInterfaceChangeCount="138508 879297084 138558 724466395" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="false">
 						<PathPointArray>
 							<PathPointType Anchor="-77.25 -30" LeftDirection="-77.25 -30" RightDirection="-77.25 -30" />
-							<PathPointType Anchor="-77.25 90" LeftDirection="-77.25 90" RightDirection="-77.25 90" />
-							<PathPointType Anchor="27.75 90" LeftDirection="27.75 90" RightDirection="27.75 90" />
-							<PathPointType Anchor="27.75 -30" LeftDirection="27.75 -30" RightDirection="27.75 -30" />
+							<PathPointType Anchor="-77.25 81" LeftDirection="-77.25 81" RightDirection="-77.25 81" />
+							<PathPointType Anchor="31.75000000000001 81" LeftDirection="31.75000000000001 81" RightDirection="31.75000000000001 81" />
+							<PathPointType Anchor="31.75000000000001 -30" LeftDirection="31.75000000000001 -30" RightDirection="31.75000000000001 -30" />
 						</PathPointArray>
 					</GeometryPathType>
 				</PathGeometry>
@@ -173,7 +173,7 @@
 					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 				</Properties>
 			</ObjectExportOption>
-			<TextFramePreference TextColumnMaxWidth="0" TextColumnCount="1" TextColumnFixedWidth="105">
+			<TextFramePreference TextColumnMaxWidth="0" TextColumnCount="1" TextColumnFixedWidth="109.00000000000001">
 				<Properties>
 					<InsetSpacing type="list">
 						<ListItem type="unit">0</ListItem>
