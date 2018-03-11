@@ -8,6 +8,9 @@ newsletter of [Sigma Zeta of ΛΧΑ](http://lcamichigan.com).
 ## Contents
 
 * [Getting Started](#getting-started)
+* [Preparing an Issue](#preparing-an-issue)
+  * [Calendar](#calendar)
+  * [Donor Honor Roll](#donor-honor-roll)
 * [Guidelines for Writing Articles](#guidelines-for-writing-articles)
 * [Creating InDesign Files](#creating-indesign-files)
 * [About _The Sigman_ Template](#about-the-sigman-template)
@@ -34,6 +37,62 @@ To create an issue of _The Sigman_, you need:
   | [Gillius](http://arkandis.tuxfamily.org/adffonts.html)                   | http://arkandis.tuxfamily.org/fonts/Gillius-Collection-20110312.zip      |
   | [League Spartan](https://www.theleagueofmoveabletype.com/league-spartan) | https://github.com/theleagueof/league-spartan/archive/master.zip         |
   | [Linux Libertine](http://www.linuxlibertine.org) (OpenType version)      | http://mirrors.ctan.org/fonts/libertine.zip                              |
+
+## Preparing an Issue
+
+### Calendar
+
+Here is where you can find dates of events to include in the calendar:
+
+| For these kinds of events | Visit                             |
+|---------------------------|-----------------------------------|
+| U-M academics             | http://ro.umich.edu/calendar/     |
+| U-M sports                | http://mgoblue.com                |
+| ΛΧΑ                       | https://www.lambdachi.org/events/ |
+
+### Donor Honor Roll
+
+Updating the Honor Roll requires access to the Sigma Zeta Address List on Google
+Drive.
+
+To update the Honor Roll:
+
+1. View the Filtered Donations sheet of the Sigma Zeta Address List. Cell A2 of
+this sheet contains a
+[`FILTER`](https://support.google.com/docs/answer/3093197). Change the `FILTER`
+so that it has two conditions: one for the earliest date of donations (for
+example, `Donations!A:A >= DATEVALUE("1/1/2017")`), and one for the latest date
+of donations (for example, `Donations!A:A < DATEVALUE("1/1/2018")`).
+
+2. View the Honor Roll sheet. In the last four columns, and excluding the header
+row, select cells that have the same Category, and then press Ctrl-C to copy the
+selection.
+
+3. In InDesign, paste the selection (press Ctrl-V to paste) into the appropriate
+category. (Class years of donors will probably break onto a new line. Don’t
+worry about this for now.) Repeat steps 2 and 3 for each category.
+
+4. Replace tab characters before class years with non-breaking spaces. To do
+this:
+
+  1. Choose Edit > Find/Change (or press Ctrl-F) to show the Find/Change dialog,
+  and then click the GREP tab.
+
+  2. In the “Find what” field, enter `\t(?=’\d\d)`. This finds tab characters
+  that are followed by a right single apostrophe (’) and two digits.
+
+  3. In the “Change to” field, enter `~S`, which means a non-breaking space.
+
+  4. Choose Story from the Search menu, and then click Change All.
+
+  After you do this, some class years may still appear on lines by themselves.
+To fix these, delete middle initials of long names. You can also decrease
+[tracking](https://en.wikipedia.org/wiki/Letter-spacing) (press Alt–Left Arrow)
+of names and class years.
+
+The Honor Roll is in a 3-column text frame, with columns 106 pt wide and 1 pt
+gutters. If there are many donations, the Honor Roll can also be in a 4-column
+text frame, with columns 129 pt wide and 8 pt gutters.
 
 ## Guidelines for Writing Articles
 
