@@ -376,6 +376,59 @@
 				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
 			</Properties>
 		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Honor Roll Headline" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" StyleUniqueId="cbf2c25f-e92d-4290-b498-aecfc8dd1503" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" Name="Honor Roll Headline" Imported="false" NextStyle="ParagraphStyle/Honor Roll Headline" IncludeClass="true" PointSize="18" BaselineShift="-4" Capitalization="AllCaps" Hyphenation="false" SpaceAfter="10" Justification="CenterAlign">
+			<Properties>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<BasedOn type="string">$ID/[No paragraph style]</BasedOn>
+				<Leading type="unit">20</Leading>
+				<AppliedFont type="string">Arvo</AppliedFont>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Honor Roll Introduction" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" StyleUniqueId="61a087d9-514a-4b1f-9690-1d7c06b63df8" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" Name="Honor Roll Introduction" Imported="false" NextStyle="ParagraphStyle/Honor Roll Introduction" IncludeClass="true" RightIndent="5">
+			<Properties>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Donor" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" StyleUniqueId="aee45e75-1e0e-4f74-99e8-394a6c6a2126" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" Name="Donor" Imported="false" NextStyle="ParagraphStyle/Donor" IncludeClass="true" PointSize="8" Hyphenation="false" OTFFigureStyle="TabularLining" GridAlignment="AlignBaseline">
+			<Properties>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+				<Leading type="unit">10</Leading>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">RightAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">22</Position>
+					</ListItem>
+					<ListItem type="record">
+						<Alignment type="enumeration">LeftAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">25</Position>
+					</ListItem>
+					<ListItem type="record">
+						<Alignment type="enumeration">LeftAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">116</Position>
+					</ListItem>
+				</TabList>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Donation Category" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" StyleUniqueId="9f5fa475-6e6e-477f-ad13-75c45d296dd9" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" Name="Donation Category" Imported="false" NextStyle="ParagraphStyle/Donation Category" IncludeClass="true" FontStyle="Italic" SpaceBefore="10" KeepWithNext="1" Justification="CenterAlign">
+			<Properties>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<BasedOn type="object">ParagraphStyle/Donor</BasedOn>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Donation Call to Action" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" StyleUniqueId="99e0e8ba-bccc-4754-b8e5-4d19ee8c13ab" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" Name="Donation Call to Action" Imported="false" NextStyle="ParagraphStyle/Donation Call to Action" IncludeClass="true" Hyphenation="false">
+			<Properties>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+			</Properties>
+		</ParagraphStyle>
 	</RootParagraphStyleGroup>
 	<TOCStyle Self="TOCStyle/$ID/DefaultTOCStyleName" TitleStyle="ParagraphStyle/$ID/[No paragraph style]" Title="Contents" Name="$ID/DefaultTOCStyleName" RunIn="false" IncludeHidden="false" IncludeBookDocuments="false" NumberedParagraphs="IncludeFullParagraph" CreateBookmarks="true" SetStoryDirection="Horizontal" RemoveForcedLineBreak="false" MakeAnchor="false" />
 	<RootCellStyleGroup Self="u78">
