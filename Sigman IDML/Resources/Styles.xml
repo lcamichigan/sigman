@@ -144,7 +144,7 @@
 				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Lost Brothers Headline" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" StyleUniqueId="94ce8bc4-71fc-4ad3-9bdd-56562d85892c" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" Name="Lost Brothers Headline" Imported="false" NextStyle="ParagraphStyle/Lost Brothers Headline" IncludeClass="true" FontStyle="Bold" PointSize="18" Tracking="100" BaselineShift="-2" Capitalization="AllCaps" LeftIndent="5" Hyphenation="false" SpaceAfter="4" OTFFigureStyle="ProportionalOldstyle" Justification="CenterAlign">
+		<ParagraphStyle Self="ParagraphStyle/Lost Brothers Headline" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" StyleUniqueId="09048171-65ab-4777-b339-7c620ca2b57c" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" Name="Lost Brothers Headline" Imported="false" NextStyle="ParagraphStyle/Lost Brothers Headline" IncludeClass="true" FontStyle="Bold" PointSize="18" Tracking="100" BaselineShift="-6" Capitalization="AllCaps" LeftIndent="5" Hyphenation="false" SpaceAfter="8" OTFFigureStyle="ProportionalOldstyle" Justification="CenterAlign">
 			<Properties>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
 				<BasedOn type="string">$ID/[No paragraph style]</BasedOn>
