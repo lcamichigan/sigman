@@ -117,10 +117,11 @@
 				<AppliedFont type="string">Damion</AppliedFont>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Lost Brother" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" StyleUniqueId="159d84bf-ac01-416e-99a5-037a1159c1c9" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" Name="Lost Brother" Imported="false" NextStyle="ParagraphStyle/Lost Brother" IncludeClass="true" PointSize="8" Hyphenation="false" OTFFigureStyle="TabularLining" GridAlignment="AlignBaseline">
+		<ParagraphStyle Self="ParagraphStyle/Lost Brother" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" StyleUniqueId="51d27dae-e5c0-43af-bc9d-d9fb0936350f" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" Name="Lost Brother" Imported="false" NextStyle="ParagraphStyle/Lost Brother" IncludeClass="true" PointSize="8" Hyphenation="false" OTFFigureStyle="TabularLining" GridAlignment="AlignBaseline">
 			<Properties>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
 				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+				<Leading type="unit">10</Leading>
 				<TabList type="list">
 					<ListItem type="record">
 						<Alignment type="enumeration">RightAlign</Alignment>
@@ -137,13 +138,13 @@
 				</TabList>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Lost Brothers Introduction" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" StyleUniqueId="9c631db5-4852-4b71-a9c3-335bac23cd73" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" Name="Lost Brothers Introduction" Imported="false" NextStyle="ParagraphStyle/Lost Brothers Introduction" IncludeClass="true" LeftIndent="5" Hyphenation="false" SpaceAfter="6" OTFFigureStyle="ProportionalLining">
+		<ParagraphStyle Self="ParagraphStyle/Lost Brothers Introduction" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" StyleUniqueId="60feea2f-864c-455e-a43e-71aa2c83c10c" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" Name="Lost Brothers Introduction" Imported="false" NextStyle="ParagraphStyle/Lost Brothers Introduction" IncludeClass="true" LeftIndent="5" Hyphenation="false" OTFFigureStyle="ProportionalLining">
 			<Properties>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
 				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Lost Brothers Headline" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" StyleUniqueId="ea90e500-d8dd-4ee1-aae0-ae19074cab6c" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" Name="Lost Brothers Headline" Imported="false" NextStyle="ParagraphStyle/Lost Brothers Headline" IncludeClass="true" FontStyle="Bold" PointSize="18" Tracking="100" BaselineShift="-2" Capitalization="AllCaps" LeftIndent="5" Hyphenation="false" SpaceAfter="6" OTFFigureStyle="ProportionalOldstyle" Justification="CenterAlign">
+		<ParagraphStyle Self="ParagraphStyle/Lost Brothers Headline" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" StyleUniqueId="94ce8bc4-71fc-4ad3-9bdd-56562d85892c" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" Name="Lost Brothers Headline" Imported="false" NextStyle="ParagraphStyle/Lost Brothers Headline" IncludeClass="true" FontStyle="Bold" PointSize="18" Tracking="100" BaselineShift="-2" Capitalization="AllCaps" LeftIndent="5" Hyphenation="false" SpaceAfter="4" OTFFigureStyle="ProportionalOldstyle" Justification="CenterAlign">
 			<Properties>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
 				<BasedOn type="string">$ID/[No paragraph style]</BasedOn>
