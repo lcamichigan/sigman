@@ -143,9 +143,9 @@ and then click the Clear Overrides button (looks like ¶\*).
     2. In the “Find what” field, enter `\t\d\d(\d\d)$`. This finds tab
     characters (`\t`) followed by four digits (`\d`) at the end of a line (`$`).
 
-    3. In the “Change to” field, enter `~S’$1`. This replaces text with a non-
-    breaking space (`~S`), a right single apostrophe (`’`), and the two digits
-    found at the end of the line (`$1`).
+    3. In the “Change to” field, enter `~S’$1`. This replaces text with a
+    non-breaking space (`~S`), a right single apostrophe (`’`), and the two
+    digits found at the end of the line (`$1`).
 
     4. Click the Change Format box to show the Change Format Settings dialog,
     choose Lost Brother Class Year from the Character Style menu, and then click
