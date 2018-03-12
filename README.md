@@ -147,7 +147,7 @@ and then click the Clear Overrides button (looks like ¶\*).
 
     3. In the “Change to” field, enter `~S’$1`. This replaces found text with a
     non-breaking space (`~S`), a right single apostrophe (`’`), and the two
-    digits found above `$1`.
+    digits found above (`$1`).
 
     4. In the Change Format field, choose a character style of Lost Brother
     Class Year.
