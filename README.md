@@ -88,7 +88,8 @@ this:
     dialog, and then click the GREP tab.
 
     2. In the “Find what” field, enter `\t(?=’\d\d)`. This finds tab characters
-    that are followed by a right single apostrophe (’) and two digits.
+    (`\t`) that are followed by a right single apostrophe (`’`) and two digits
+    (`\d`).
 
     3. In the “Change to” field, enter `~S`, which means a non-breaking space.
 
@@ -105,13 +106,62 @@ text frame, with columns 129 pt wide and 8 pt gutters.
 
 ### Lost Brothers
 
-1. Find what: `^(.)`, Change to: `\t$1`
+Updating the list of lost brothers requires access to the Sigma Zeta Address
+List on Google Drive.
 
-2. Find what: `\t\d\d(\d\d)$`, Change to: `~S’$1`, Change Format: “Character Style: Lost Brother Class Year”
+To update the list of lost brothers:
 
-3. Select all, choose Windows > Info or press <kbd>F8</kbd>, paragraph count.
+1. View the Lost Alumni sheet of the Sigma Zeta Address List. Excluding the
+header row, select the sheet, and then press Ctrl-C to copy the selection.
 
-If too many, delete lowest Sigma numbers.
+2. In InDesign, paste the selection (press Ctrl-V to paste) into the list of
+lost brothers. If the paragraph style is wrong (for example, if the pasted text
+is bold): press Ctrl-A to select the entire lost brother section, Shift-click
+the start of the name of the first lost brother, choose Type > Paragraph Styles,
+and then click the Clear Overrides button (looks like ¶\*).
+
+3. Add tab characters before the Sigma number of each lost brother. To do this:
+
+    1. Choose Edit > Find/Change (or press Ctrl-F) to show the Find/Change
+    dialog, and then click the GREP tab.
+
+    2. In the “Find what” field, enter `^(.)`. This finds the beginning of a
+    line (`^`) followed by any character (`.`). (Finding any character is a
+    workaround for the fact that finding the beginning of a line doesn’t appear
+    to work on its own.)
+
+    3. In the “Change to” field, enter `\t$1`, which means a tab character
+    (`\t`) followed by the character found as `(.)` above (`$1`).
+
+    4. Choose Selection from the Search menu, and then click Change All.
+
+4. Abbreviate class years. To do this:
+
+    1. Choose Edit > Find/Change (or press Ctrl-F) to show the Find/Change
+    dialog, and then click the GREP tab.
+
+    2. In the “Find what” field, enter `\t\d\d(\d\d)$`. This finds tab
+    characters (`\t`) followed by four digits (`\d`) at the end of a line (`$`).
+    The last two digits are captured in parentheses so that they can used in the
+    “Change to” field.
+
+    3. In the “Change to” field, enter `~S’$1`. This replaces found text with a
+    non-breaking space (`~S`), a right single apostrophe (`’`), and the two
+    digits found above `$1`.
+
+    4. In the Change Format field, choose a character style of Lost Brother
+    Class Year.
+
+    5. Choose Selection from the Search menu, and then click Change All.
+
+If there are too many lost brothers to fit the text frame, delete brothers with
+the lowest Sigma numbers.
+
+Some class years may appear on lines by themselves. To fix these, delete middle
+initials of long names.
+
+To count lost brothers, select all of them, and then choose Windows > Info or
+press F8. The number of paragraphs is the number of lost brothers.
 
 ### Mailing List
 
