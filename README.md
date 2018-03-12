@@ -71,7 +71,7 @@ example:
     and one for the latest date of donations, for example:
 
     ```
-    Donations!A:A < DATEVALUE("1/1/2018")`)
+    Donations!A:A < DATEVALUE("1/1/2018")
     ```
 
 2. View the Honor Roll sheet. In the last four columns, and excluding the header
