@@ -47,8 +47,8 @@ Here is where you can find dates of events to include in the calendar:
 
 | For these kinds of events | Visit                             |
 |---------------------------|-----------------------------------|
-| U-M academics             | http://ro.umich.edu/calendar/     |
-| U-M sports                | http://mgoblue.com                |
+| U‑M academics             | http://ro.umich.edu/calendar/     |
+| U‑M sports                | http://mgoblue.com                |
 | ΛΧΑ                       | https://www.lambdachi.org/events/ |
 
 ### Donor Honor Roll
@@ -61,7 +61,7 @@ To update the Honor Roll:
 1. View the Filtered Donations sheet of the Sigma Zeta Address List. Cell A2 of
 this sheet contains a
 [`FILTER`](https://support.google.com/docs/answer/3093197). Change the `FILTER`
-so that it has two conditions: one for the earliest date of donations, for
+so that it has two conditions, one for the earliest date of donations, for
 example:
 
     ```
@@ -96,7 +96,7 @@ this:
     4. Choose Story from the Search menu, and then click Change All.
 
     After you do this, some class years may still appear on lines by themselves.
-To fix these, delete middle initials of long names. You can also decrease
+To fix this, delete middle initials of long names. You can also decrease
 [tracking](https://en.wikipedia.org/wiki/Letter-spacing) (press Alt–Left Arrow)
 of names and class years.
 
@@ -156,7 +156,7 @@ and then click the Clear Overrides button (looks like ¶\*).
 If there are too many lost brothers to fit the text frame, delete brothers with
 the lowest Sigma numbers.
 
-Some class years may appear on lines by themselves. To fix these, delete middle
+Some class years may appear on lines by themselves. To fix this, delete middle
 initials of long names.
 
 To count lost brothers, select all of them, and then choose Windows > Info or
@@ -199,9 +199,9 @@ Here are additional guidelines to keep in mind:
 * Use a right single quotation mark (’), not a straight single quote (') or a
   left single quotation mark (‘), to abbreviate a year.
 
-  _Correct:_ George Spasyk&nbsp;’49
+  _Correct:_ George Spasyk ’49
 
-  _Incorrect:_ George Spasyk&nbsp;‘49
+  _Incorrect:_ George Spasyk ‘49
 
   Note that Microsoft Word’s “smart quotes” feature often uses the wrong
   quotation mark in this case.
@@ -229,7 +229,7 @@ Here are additional guidelines to keep in mind:
 
 * _Associate member_ and _brother_ should be capitalized only when used as
   titles, for example, “The meeting was chaired by Brother George
-  Spasyk&nbsp;’49. George is a brother from Sigma.”
+  Spasyk ’49. George is a brother from Sigma.”
 
 * Don’t use _rushees_ to refer to _prospective members_.
 
@@ -243,13 +243,13 @@ Here are additional guidelines to keep in mind:
 
 * Use _Sigma_ instead of _Sigma Zeta_ and _Sigma Zeta of ΛΧΑ_.
 
-* Use _U&#x2011;M_ or _Michigan_ when _University of Michigan_ is too verbose.
-  Don’t use _U of M_.
+* Use _U‑M_ or _Michigan_ when _University of Michigan_ is too verbose. Don’t
+  use _U of M_.
 
 * Follow _Interfraternity Council_ with its initialism in parentheses (IFC) on
   first use, and then use the initialism only. Unless you’re writing about more
   than one Interfraternity Council, there’s no need to precede _IFC_ with
-  _Michigan_ or _U&#x2011;M_. Don’t hyphenate _Interfraternity_.
+  _Michigan_ or _U‑M_. Don’t hyphenate _Interfraternity_.
 
 ## Creating InDesign Files
 
@@ -321,8 +321,7 @@ variety of typefaces: [Bodoni](https://en.wikipedia.org/wiki/Bodoni),
 [Spartan](https://en.wikipedia.org/wiki/Spartan_(typeface)).
 
 The nameplate in the template uses Big Caslon Medium (the version included with
-macOS High Sierra 10.13) at 48&nbsp;pt with tracking at 200 thousandths of an
-em.
+macOS High Sierra 10.13) at 48 pt with tracking at 200 thousandths of an em.
 
 Here are the fonts used in place of the originals:
 
