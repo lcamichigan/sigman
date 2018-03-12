@@ -90,7 +90,7 @@ this:
 
     2. In the “Find what” field, enter `\t(?=’\d\d)`. This finds tab characters
     (`\t`) that are followed by a right single apostrophe (`’`) and two digits
-    (`\d`).
+    (`\d\d`).
 
     3. In the “Change to” field, enter `~S`, which means a non-breaking space.
 
@@ -132,7 +132,7 @@ and then click the Clear Overrides button (looks like ¶\*).
     to work on its own.)
 
     3. In the “Change to” field, enter `\t$1`, which means a tab character
-    (`\t`) followed by the character found as `(.)` above (`$1`).
+    (`\t`) followed by the character found above (`$1`).
 
     4. Choose Selection from the Search menu, and then click Change All.
 
