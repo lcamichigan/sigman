@@ -60,9 +60,18 @@ To update the Honor Roll:
 1. View the Filtered Donations sheet of the Sigma Zeta Address List. Cell A2 of
 this sheet contains a
 [`FILTER`](https://support.google.com/docs/answer/3093197). Change the `FILTER`
-so that it has two conditions: one for the earliest date of donations (for
-example, `Donations!A:A >= DATEVALUE("1/1/2017")`), and one for the latest date
-of donations (for example, `Donations!A:A < DATEVALUE("1/1/2018")`).
+so that it has two conditions: one for the earliest date of donations, for
+example:
+
+    ```
+    Donations!A:A >= DATEVALUE("1/1/2017")
+    ```
+
+    and one for the latest date of donations, for example:
+
+    ```
+    Donations!A:A < DATEVALUE("1/1/2018")`)
+    ```
 
 2. View the Honor Roll sheet. In the last four columns, and excluding the header
 row, select cells that have the same Category, and then press Ctrl-C to copy the
@@ -75,17 +84,17 @@ worry about this for now.) Repeat steps 2 and 3 for each category.
 4. Replace tab characters before class years with non-breaking spaces. To do
 this:
 
-  1. Choose Edit > Find/Change (or press Ctrl-F) to show the Find/Change dialog,
-  and then click the GREP tab.
+    1. Choose Edit > Find/Change (or press Ctrl-F) to show the Find/Change
+    dialog, and then click the GREP tab.
 
-  2. In the “Find what” field, enter `\t(?=’\d\d)`. This finds tab characters
-  that are followed by a right single apostrophe (’) and two digits.
+    2. In the “Find what” field, enter `\t(?=’\d\d)`. This finds tab characters
+    that are followed by a right single apostrophe (’) and two digits.
 
-  3. In the “Change to” field, enter `~S`, which means a non-breaking space.
+    3. In the “Change to” field, enter `~S`, which means a non-breaking space.
 
-  4. Choose Story from the Search menu, and then click Change All.
+    4. Choose Story from the Search menu, and then click Change All.
 
-  After you do this, some class years may still appear on lines by themselves.
+    After you do this, some class years may still appear on lines by themselves.
 To fix these, delete middle initials of long names. You can also decrease
 [tracking](https://en.wikipedia.org/wiki/Letter-spacing) (press Alt–Left Arrow)
 of names and class years.
@@ -93,6 +102,20 @@ of names and class years.
 The Honor Roll is in a 3-column text frame, with columns 106 pt wide and 1 pt
 gutters. If there are many donations, the Honor Roll can also be in a 4-column
 text frame, with columns 129 pt wide and 8 pt gutters.
+
+### Lost Brothers
+
+1. Find what: `^(.)`, Change to: `\t$1`
+
+2. Find what: `\t\d\d(\d\d)$`, Change to: `~S’$1`, Change Format: “Character Style: Lost Brother Class Year”
+
+3. Select all, choose Windows > Info or press <kbd>F8</kbd>, paragraph count.
+
+If too many, delete lowest Sigma numbers.
+
+### Mailing List
+
+
 
 ## Guidelines for Writing Articles
 
