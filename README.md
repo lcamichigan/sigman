@@ -163,10 +163,6 @@ initials of long names.
 To count lost brothers, select all of them, and then choose Windows > Info or
 press F8. The number of paragraphs is the number of lost brothers.
 
-### Mailing List
-
-
-
 ## Guidelines for Writing Articles
 
 Unless you’re the chapter president writing the High Alpha letter, or the alumni
