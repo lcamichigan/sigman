@@ -11,6 +11,7 @@ newsletter of [Sigma Zeta of ΛΧΑ](http://lcamichigan.com).
 * [Preparing an Issue](#preparing-an-issue)
   * [Calendar](#calendar)
   * [Donor Honor Roll](#donor-honor-roll)
+  * [Lost Brothers](#lost-brothers)
 * [Guidelines for Writing Articles](#guidelines-for-writing-articles)
 * [Creating InDesign Files](#creating-indesign-files)
 * [About _The Sigman_ Template](#about-the-sigman-template)
