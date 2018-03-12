@@ -115,7 +115,7 @@ To update the list of lost brothers:
 header row, select the sheet, and then press Ctrl-C to copy the selection.
 
 2. In InDesign, paste the selection (press Ctrl-V to paste) into the list of
-lost brothers. If the paragraph style is wrong (for example, if the pasted text
+lost brothers. If the character style is wrong (for example, if the pasted text
 is bold): press Ctrl-A to select the entire lost brother section, Shift-click
 the start of the name of the first lost brother, choose Type > Paragraph Styles,
 and then click the Clear Overrides button (looks like ¶\*).
