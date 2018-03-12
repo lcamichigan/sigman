@@ -74,9 +74,8 @@ example:
     Donations!A:A < DATEVALUE("1/1/2018")
     ```
 
-2. View the Honor Roll sheet. In the last four columns, and excluding the header
-row, select cells that have the same Category, and then press Ctrl-C to copy the
-selection.
+2. View the Honor Roll sheet. In the last four columns, select cells that have
+the same Category, and then press Ctrl-C to copy the selection.
 
 3. In InDesign, paste the selection (press Ctrl-V to paste) into the appropriate
 category. (Class years of donors will probably break onto a new line. Don’t
@@ -88,9 +87,9 @@ this:
     1. Choose Edit > Find/Change (or press Ctrl-F) to show the Find/Change
     dialog, and then click the GREP tab.
 
-    2. In the “Find what” field, enter `\t(?=’\d\d)`. This finds tab characters
+    2. In the “Find what” field, enter `\t(?=’\d\d$)`. This finds tab characters
     (`\t`) that are followed by a right single apostrophe (`’`) and two digits
-    (`\d\d`).
+    (`\d`) at the end of a line `$`.
 
     3. In the “Change to” field, enter `~S`, which means a non-breaking space.
 
@@ -132,7 +131,7 @@ and then click the Clear Overrides button (looks like ¶\*).
     to work on its own.)
 
     3. In the “Change to” field, enter `\t$1`, which means a tab character
-    (`\t`) followed by the character found above (`$1`).
+    (`\t`) followed by the character found at the beginning of the line (`$1`).
 
     4. Choose Selection from the Search menu, and then click Change All.
 
@@ -143,15 +142,14 @@ and then click the Clear Overrides button (looks like ¶\*).
 
     2. In the “Find what” field, enter `\t\d\d(\d\d)$`. This finds tab
     characters (`\t`) followed by four digits (`\d`) at the end of a line (`$`).
-    The last two digits are captured in parentheses so that they can used in the
-    “Change to” field.
 
-    3. In the “Change to” field, enter `~S’$1`. This replaces found text with a
-    non-breaking space (`~S`), a right single apostrophe (`’`), and the two
-    digits found above (`$1`).
+    3. In the “Change to” field, enter `~S’$1`. This replaces text with a non-
+    breaking space (`~S`), a right single apostrophe (`’`), and the two digits
+    found at the end of the line (`$1`).
 
-    4. In the Change Format field, choose a character style of Lost Brother
-    Class Year.
+    4. Click the Change Format box to show the Change Format Settings dialog,
+    choose Lost Brother Class Year from the Character Style menu, and then click
+    OK.
 
     5. Choose Selection from the Search menu, and then click Change All.
 
