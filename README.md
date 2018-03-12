@@ -22,22 +22,22 @@ newsletter of [Sigma Zeta of ΛΧΑ](http://lcamichigan.com).
 To create an issue of _The Sigman_, you need:
 
 * [Adobe InDesign](https://www.adobe.com/products/indesign.html). Visit
-  https://www.adobe.com/creativecloud/plans.html for more information.
+https://www.adobe.com/creativecloud/plans.html for more information.
 
 * Envelope.idml and Sigman.idml. The easiest way to get these files is to
-  download them from
-  https://ci.appveyor.com/project/lcamichigan/sigman/build/artifacts, but you
-  can also [create your own](#creating-indesign-files).
+download them from
+https://ci.appveyor.com/project/lcamichigan/sigman/build/artifacts, but you
+can also [create your own](#creating-indesign-files).
 
 * These fonts:
 
-  | Font                                                                     | Download URL                                                             |
-  |--------------------------------------------------------------------------|--------------------------------------------------------------------------|
-  | [Arvo](https://fonts.google.com/specimen/Arvo)                           | https://github.com/google/fonts/raw/master/ofl/arvo/Arvo-Regular.ttf     |
-  | [Damion](https://fonts.google.com/specimen/Damion)                       | https://github.com/google/fonts/raw/master/ofl/damion/Damion-Regular.ttf |
-  | [Gillius](http://arkandis.tuxfamily.org/adffonts.html)                   | http://arkandis.tuxfamily.org/fonts/Gillius-Collection-20110312.zip      |
-  | [League Spartan](https://www.theleagueofmoveabletype.com/league-spartan) | https://github.com/theleagueof/league-spartan/archive/master.zip         |
-  | [Linux Libertine](http://www.linuxlibertine.org) (OpenType version)      | http://mirrors.ctan.org/fonts/libertine.zip                              |
+    | Font                                                                     | Download URL                                                             |
+    |--------------------------------------------------------------------------|--------------------------------------------------------------------------|
+    | [Arvo](https://fonts.google.com/specimen/Arvo)                           | https://github.com/google/fonts/raw/master/ofl/arvo/Arvo-Regular.ttf     |
+    | [Damion](https://fonts.google.com/specimen/Damion)                       | https://github.com/google/fonts/raw/master/ofl/damion/Damion-Regular.ttf |
+    | [Gillius](http://arkandis.tuxfamily.org/adffonts.html)                   | http://arkandis.tuxfamily.org/fonts/Gillius-Collection-20110312.zip      |
+    | [League Spartan](https://www.theleagueofmoveabletype.com/league-spartan) | https://github.com/theleagueof/league-spartan/archive/master.zip         |
+    | [Linux Libertine](http://www.linuxlibertine.org) (OpenType version)      | http://mirrors.ctan.org/fonts/libertine.zip                              |
 
 ## Preparing an Issue
 
@@ -75,13 +75,12 @@ example:
     ```
 
 2. View the Honor Roll sheet. In the last four columns, select cells that have
-the same Category, and then press Ctrl-C to copy the selection.
+the same Category, and then press Ctrl-C to copy the selection. In InDesign,
+paste the selection (press Ctrl-V to paste) into the appropriate category.
+(Class years of donors will probably break onto a new line. Don’t worry about
+this for now.) Repeat this for each category.
 
-3. In InDesign, paste the selection (press Ctrl-V to paste) into the appropriate
-category. (Class years of donors will probably break onto a new line. Don’t
-worry about this for now.) Repeat steps 2 and 3 for each category.
-
-4. Replace tab characters before class years with non-breaking spaces. To do
+3. Replace tab characters before class years with non-breaking spaces. To do
 this:
 
     1. Choose Edit > Find/Change (or press Ctrl-F) to show the Find/Change
@@ -112,15 +111,13 @@ List on Google Drive.
 To update the list of lost brothers:
 
 1. View the Lost Alumni sheet of the Sigma Zeta Address List. Excluding the
-header row, select the sheet, and then press Ctrl-C to copy the selection.
+header row, select the sheet, and then press Ctrl-C to copy the selection. In
+InDesign, paste the selection (press Ctrl-V to paste) into the list of lost
+brothers. If the character style is wrong (for example, if the pasted text is
+bold), press Ctrl-A to select the entire lost brother section, choose Type >
+Paragraph Styles, and then click the Clear Overrides button (looks like ¶\*).
 
-2. In InDesign, paste the selection (press Ctrl-V to paste) into the list of
-lost brothers. If the character style is wrong (for example, if the pasted text
-is bold): press Ctrl-A to select the entire lost brother section, Shift-click
-the start of the name of the first lost brother, choose Type > Paragraph Styles,
-and then click the Clear Overrides button (looks like ¶\*).
-
-3. Add tab characters before the Sigma number of each lost brother. To do this:
+2. Add tab characters before the Sigma number of each lost brother. To do this:
 
     1. Choose Edit > Find/Change (or press Ctrl-F) to show the Find/Change
     dialog, and then click the GREP tab.
@@ -135,7 +132,7 @@ and then click the Clear Overrides button (looks like ¶\*).
 
     4. Choose Selection from the Search menu, and then click Change All.
 
-4. Abbreviate class years. To do this:
+3. Abbreviate and format class years. To do this:
 
     1. Choose Edit > Find/Change (or press Ctrl-F) to show the Find/Change
     dialog, and then click the GREP tab.
@@ -194,48 +191,48 @@ Here are additional guidelines to keep in mind:
 * Don’t type a tab at the start of a paragraph.
 
 * Paragraphs should be preceded by a single paragraph break; press Enter _once_
-  to start new paragraphs.
+to start new paragraphs.
 
 * Use a right single quotation mark (’), not a straight single quote (') or a
-  left single quotation mark (‘), to abbreviate a year.
+left single quotation mark (‘), to abbreviate a year.
 
-  _Correct:_ George Spasyk ’49
+    _Correct:_ George Spasyk ’49
 
-  _Incorrect:_ George Spasyk ‘49
+    _Incorrect:_ George Spasyk ‘49
 
-  Note that Microsoft Word’s “smart quotes” feature often uses the wrong
-  quotation mark in this case.
+    Note that Microsoft Word’s “smart quotes” feature often uses the wrong
+quotation mark in this case.
 
 * Use _italics_ for emphasis, not bold or underlining.
 
 * If you’re not writing a High Alpha or High Pi letter, avoid writing in the
-  first person. If you need to refer to yourself in an article, use _this
-  writer_ or _this author_ instead of _me_ or _I_. Use _Sigma_, _the
-  undergraduates_, or _the active chapter_ instead of _we_ or _us_.
+first person. If you need to refer to yourself in an article, use _this writer_
+or _this author_ instead of _me_ or _I_. Use _Sigma_, _the undergraduates_, or
+_the active chapter_ instead of _we_ or _us_.
 
 * Except when using _Sigma_ to refer to the chapter, avoid spelling out letters
-  of the Greek alphabet:
+of the Greek alphabet:
 
-  Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω
+    Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω
 
-  Use _ΛΧΑ_ instead of _Lambda Chi Alpha_, and _ZAX_ instead of _Zeta Alpha
-  Chi_. Write Greek-letter fraternity names like _ΑΔΠ_, not _ADPi_. It’s OK to
-  abbreviate _ΛΧΑ_ as _ΛΧ_ and to refer to a group of Fraternity members as
-  _ΛΧs_.
+    Use _ΛΧΑ_ instead of _Lambda Chi Alpha_, and _ZAX_ instead of _Zeta Alpha
+Chi_. Write Greek-letter fraternity names like _ΑΔΠ_, not _ADPi_. It’s OK to
+abbreviate _ΛΧΑ_ as _ΛΧ_ and to refer to a group of Fraternity members as
+_ΛΧs_.
 
 * Use precise numbers. $1,001 and $1,000,000 are both “more than $1,000”.
 
 * Don’t use _AM_ to abbreviate _associate member_.
 
 * _Associate member_ and _brother_ should be capitalized only when used as
-  titles, for example, “The meeting was chaired by Brother George
-  Spasyk ’49. George is a brother from Sigma.”
+titles, for example, “The meeting was chaired by Brother George Spasyk ’49.
+George is a brother from Sigma.”
 
 * Don’t use _rushees_ to refer to _prospective members_.
 
 * Don’t describe something as _historic_ or _momentous_ unless it is. Sigma’s
-  100th anniversary was historic. Having a formal dance go off without a hitch
-  is excellent, but not historic.
+100th anniversary was historic. Having a formal dance go off without a hitch
+is excellent, but not historic.
 
 * Don’t capitalize seasons like _fall_ and _winter_.
 
@@ -244,12 +241,12 @@ Here are additional guidelines to keep in mind:
 * Use _Sigma_ instead of _Sigma Zeta_ and _Sigma Zeta of ΛΧΑ_.
 
 * Use _U‑M_ or _Michigan_ when _University of Michigan_ is too verbose. Don’t
-  use _U of M_.
+use _U of M_.
 
 * Follow _Interfraternity Council_ with its initialism in parentheses (IFC) on
-  first use, and then use the initialism only. Unless you’re writing about more
-  than one Interfraternity Council, there’s no need to precede _IFC_ with
-  _Michigan_ or _U‑M_. Don’t hyphenate _Interfraternity_.
+first use, and then use the initialism only. Unless you’re writing about more
+than one Interfraternity Council, there’s no need to precede _IFC_ with
+_Michigan_ or _U‑M_. Don’t hyphenate _Interfraternity_.
 
 ## Creating InDesign Files
 
@@ -257,14 +254,14 @@ Creating InDesign IDML files from the files in this repository requires the free
 [Zip](http://www.info-zip.org/Zip.html) utility. To install Zip on Windows:
 
 1. Click ftp://ftp.info-zip.org/pub/infozip/win32/zip300xn-x64.zip to download
-   zip300xn-x64.zip.
+zip300xn-x64.zip.
 
 2. Right-click zip300xn-x64.zip, choose Extract All, and then click Extract to
-   extract a folder named zip300xn-x64.
+extract a folder named zip300xn-x64.
 
 3. Right-click zip300xn-x64.zip in the zip300xn-x64 folder you just extracted,
-   choose Extract All, and then click Extract to extract another folder named
-   zip300xn-x64.
+choose Extract All, and then click Extract to extract another folder named
+zip300xn-x64.
 
 4. Move this second zip300xn-x64 folder to C:\Program Files.
 
