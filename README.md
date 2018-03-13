@@ -270,7 +270,13 @@ enter in PowerShell or Command Prompt:
 choco install ghostscript.app imagemagick.tool -y
 ```
 
-To create a thumbnail, enter in PowerShell or Command Prompt:
+To create a thumbnail, enter in PowerShell:
+
+```powershell
+magick convert --% -trim -colorspace sRGB -thumbnail 300x -crop 300x300+0+0 "File path.pdf"[0] "File path.png"
+```
+
+or in Command Prompt:
 
 ```batch
 magick convert -trim -colorspace sRGB -thumbnail 300x -crop 300x300+0+0 "File path.pdf"[0] "File path.png"
