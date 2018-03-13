@@ -13,6 +13,9 @@ newsletter of [Sigma Zeta of ΛΧΑ](http://lcamichigan.com).
   * [Donor Honor Roll](#donor-honor-roll)
   * [Lost Brothers](#lost-brothers)
 * [Guidelines for Writing Articles](#guidelines-for-writing-articles)
+* [Creating a Thumbnail](#creating-a-thumbnail)
+  * [On Windows](#on-windows)
+  * [On macOS](#on-macos)
 * [Creating InDesign Files](#creating-indesign-files)
 * [About _The Sigman_ Template](#about-the-sigman-template)
 * [About the Envelope](#about-the-envelope)
@@ -247,6 +250,44 @@ use _U of M_.
 first use, and then use the initialism only. Unless you’re writing about more
 than one Interfraternity Council, there’s no need to precede _IFC_ with
 _Michigan_ or _U‑M_. Don’t hyphenate _Interfraternity_.
+
+## Creating a Thumbnail
+
+Thumbnails of issues of _The Sigman_ are shown in a Squarespace
+[gallery](https://support.squarespace.com/hc/en-us/articles/206543407) at
+http://lcamichigan.com/alumni-news#sigman. One way to make a thumbnail from a
+PDF file is to use
+[ImageMagick `convert`](https://www.imagemagick.org/script/convert.php).
+
+### On Windows
+
+The easiest way to install ImageMagick `convert` is probably through
+[Chocolatey](https://chocolatey.org). To install Chocolatey, follow the
+instructions at https://chocolatey.org/install. After you install Chocolatey,
+enter in PowerShell or Command Prompt:
+
+```
+choco install ghostscript.app imagemagick.tool -y
+```
+
+To create a thumbnail, enter in PowerShell or Command Prompt:
+
+```batch
+magick convert -trim -colorspace sRGB -thumbnail 300x -crop 300x300+0+0 "File path.pdf"[0] "File path.png"
+```
+
+### On macOS
+
+The easiest way to install ImageMagick `convert` is probably through
+[Homebrew](https://brew.sh). To install Homebrew, follow the instructions at
+https://brew.sh. After you install Homebrew, enter `brew install imagemagick` in
+Terminal.
+
+To create a thumbnail, enter in Terminal:
+
+```sh
+convert -trim -colorspace sRGB -thumbnail 300x -crop 300x300+0+0 'File path.pdf'[0] 'File path.png'
+```
 
 ## Creating InDesign Files
 
