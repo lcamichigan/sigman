@@ -34,7 +34,7 @@
 				<TextVariableInstance Self="u320" Name="Contribution Address Line 2" ResultText="contribution address line 2" AssociatedTextVariable="dTextVariablenContribution Address Line 2" />
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-				<Content> or visit lcamichigan.com/alumni-news#sigman</Content>
+				<Content> or visit lcamichigan.com/newsletter</Content>
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 	</Story>
