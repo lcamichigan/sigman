@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<idPkg:Spread xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="13.0">
-	<Spread Self="u108" PageTransitionType="None" PageTransitionDirection="NotApplicable" PageTransitionDuration="Medium" AllowPageShuffle="true" ShowMasterItems="true" ItemTransform="1 0 0 1 0 0" PageCount="1" BindingLocation="0" FlattenerOverride="Default">
+<idPkg:Spread xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="13.1">
+	<Spread Self="u108" PageTransitionType="None" PageTransitionDirection="NotApplicable" PageTransitionDuration="Medium" ShowMasterItems="true" PageCount="1" BindingLocation="0" AllowPageShuffle="true" ItemTransform="1 0 0 1 0 0" FlattenerOverride="Default">
 		<FlattenerPreference LineArtAndTextResolution="300" GradientAndMeshResolution="150" ClipComplexRegions="false" ConvertAllStrokesToOutlines="false" ConvertAllTextToOutlines="false">
 			<Properties>
 				<RasterVectorBalance type="double">50</RasterVectorBalance>
 			</Properties>
 		</FlattenerPreference>
-		<Page Self="u10d" TabOrder="" MasterPageTransform="1 0 0 1 0 0" AppliedMaster="ub2" OverrideList="" GeometricBounds="0 0 792 612" ItemTransform="1 0 0 1 0 -396" AppliedAlternateLayout="uad" LayoutRule="UseMaster" SnapshotBlendingMode="IgnoreLayoutSnapshots" OptionalPage="false" Name="1" AppliedTrapPreset="TrapPreset/$ID/kDefaultTrapStyleName" GridStartingPoint="TopOutside" UseMasterGrid="true">
+		<Page Self="u10d" TabOrder="" AppliedMaster="ub2" OverrideList="" MasterPageTransform="1 0 0 1 0 0" Name="1" AppliedTrapPreset="TrapPreset/$ID/kDefaultTrapStyleName" GeometricBounds="0 0 792 612" ItemTransform="1 0 0 1 0 -396" AppliedAlternateLayout="uad" LayoutRule="UseMaster" SnapshotBlendingMode="IgnoreLayoutSnapshots" OptionalPage="false" GridStartingPoint="TopOutside" UseMasterGrid="true">
 			<Properties>
 				<PageColor type="enumeration">UseMasterColor</PageColor>
 				<Descriptor type="list">
@@ -18,14 +18,14 @@
 					<ListItem type="string"></ListItem>
 				</Descriptor>
 			</Properties>
-			<MarginPreference ColumnDirection="Horizontal" ColumnCount="3" ColumnGutter="9" Top="36" Bottom="36" Left="36" Right="36" ColumnsPositions="0 174 183 357 366 540" />
+			<MarginPreference ColumnCount="3" ColumnGutter="9" Top="36" Bottom="36" Left="36" Right="36" ColumnDirection="Horizontal" ColumnsPositions="0 174 183 357 366 540" />
 			<GridDataInformation FontStyle="Regular" PointSize="12" CharacterAki="0" LineAki="9" HorizontalScale="100" VerticalScale="100" LineAlignment="LeftOrTopLineJustify" GridAlignment="AlignEmCenter" CharacterAlignment="AlignEmCenter">
 				<Properties>
 					<AppliedFont type="string">Minion Pro</AppliedFont>
 				</Properties>
 			</GridDataInformation>
 		</Page>
-		<Polygon Self="u10f" ContentType="Unassigned" StoryTitle="$ID/" OverriddenPageItemProps="" FillColor="Color/Black" OverprintFill="true" CornerRadius="0.167" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[None]" TopLeftCornerRadius="0.167" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 36 -360" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<Polygon Self="u10f" ContentType="Unassigned" StoryTitle="$ID/" OverriddenPageItemProps="" Visible="true" Name="$ID/" TopLeftCornerRadius="0.167" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" FillColor="Color/Black" OverprintFill="true" CornerRadius="0.167" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[None]" ItemTransform="1 0 0 1 36 -360" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="false">
@@ -603,20 +603,20 @@
 					</GeometryPathType>
 				</PathGeometry>
 			</Properties>
-			<ObjectExportOption SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" EpubType="$ID/" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
 				<Properties>
 					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 				</Properties>
 			</ObjectExportOption>
-			<TextWrapPreference TextWrapMode="None" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" Inverse="false">
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
 				<Properties>
 					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
 				</Properties>
 			</TextWrapPreference>
 			<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
 		</Polygon>
-		<TextFrame Self="u123" ParentStory="u111" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 306.00000000000006 -302.04" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<TextFrame Self="u123" ParentStory="u111" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" ItemTransform="1 0 0 1 306.00000000000006 -302.04" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="false">
@@ -629,13 +629,13 @@
 					</GeometryPathType>
 				</PathGeometry>
 			</Properties>
-			<ObjectExportOption SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" EpubType="$ID/" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
 				<Properties>
 					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 				</Properties>
 			</ObjectExportOption>
-			<TextFramePreference TextColumnMaxWidth="0" TextColumnCount="1" TextColumnFixedWidth="540" VerticalJustification="CenterAlign">
+			<TextFramePreference TextColumnCount="1" TextColumnFixedWidth="540" VerticalJustification="CenterAlign" TextColumnMaxWidth="0">
 				<Properties>
 					<InsetSpacing type="list">
 						<ListItem type="unit">0</ListItem>
@@ -645,13 +645,13 @@
 					</InsetSpacing>
 				</Properties>
 			</TextFramePreference>
-			<TextWrapPreference TextWrapMode="None" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" Inverse="false">
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
 				<Properties>
 					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
 				</Properties>
 			</TextWrapPreference>
 		</TextFrame>
-		<TextFrame Self="u139" ParentStory="u127" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 306 -270.56000000000006" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<TextFrame Self="u139" ParentStory="u127" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" ItemTransform="1 0 0 1 306 -270.56000000000006" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="false">
@@ -664,13 +664,13 @@
 					</GeometryPathType>
 				</PathGeometry>
 			</Properties>
-			<ObjectExportOption SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" EpubType="$ID/" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
 				<Properties>
 					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 				</Properties>
 			</ObjectExportOption>
-			<TextFramePreference TextColumnMaxWidth="0" TextColumnCount="1" TextColumnFixedWidth="540" VerticalJustification="CenterAlign">
+			<TextFramePreference TextColumnCount="1" TextColumnFixedWidth="540" VerticalJustification="CenterAlign" TextColumnMaxWidth="0">
 				<Properties>
 					<InsetSpacing type="list">
 						<ListItem type="unit">0</ListItem>
@@ -680,13 +680,13 @@
 					</InsetSpacing>
 				</Properties>
 			</TextFramePreference>
-			<TextWrapPreference TextWrapMode="None" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" Inverse="false">
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
 				<Properties>
 					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
 				</Properties>
 			</TextWrapPreference>
 		</TextFrame>
-		<GraphicLine Self="u13c" ContentType="Unassigned" LockState="None" OverriddenPageItemProps="" StrokeWeight="0.5" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Graphics Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 612.19 -876" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<GraphicLine Self="u13c" ContentType="Unassigned" LockState="None" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" StrokeWeight="0.5" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Graphics Frame]" ItemTransform="1 0 0 1 612.19 -876" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="true">
@@ -697,19 +697,19 @@
 					</GeometryPathType>
 				</PathGeometry>
 			</Properties>
-			<ObjectExportOption SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" EpubType="$ID/" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
 				<Properties>
 					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 				</Properties>
 			</ObjectExportOption>
-			<TextWrapPreference TextWrapMode="None" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" Inverse="false">
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
 				<Properties>
 					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
 				</Properties>
 			</TextWrapPreference>
 		</GraphicLine>
-		<GraphicLine Self="u13d" ContentType="Unassigned" LockState="None" OverriddenPageItemProps="" StrokeWeight="0.5" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Graphics Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 0 65.05" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<GraphicLine Self="u13d" ContentType="Unassigned" LockState="None" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" StrokeWeight="0.5" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Graphics Frame]" ItemTransform="1 0 0 1 0 65.05" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="true">
@@ -720,19 +720,19 @@
 					</GeometryPathType>
 				</PathGeometry>
 			</Properties>
-			<ObjectExportOption SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" EpubType="$ID/" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
 				<Properties>
 					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 				</Properties>
 			</ObjectExportOption>
-			<TextWrapPreference TextWrapMode="None" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" Inverse="false">
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
 				<Properties>
 					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
 				</Properties>
 			</TextWrapPreference>
 		</GraphicLine>
-		<TextFrame Self="u151" ParentStory="u13f" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 123.12000000000006 -134.4" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<TextFrame Self="u151" ParentStory="u13f" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" ItemTransform="1 0 0 1 123.12000000000006 -134.4" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="false">
@@ -745,13 +745,13 @@
 					</GeometryPathType>
 				</PathGeometry>
 			</Properties>
-			<ObjectExportOption SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" EpubType="$ID/" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
 				<Properties>
 					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 				</Properties>
 			</ObjectExportOption>
-			<TextFramePreference TextColumnMaxWidth="0" AutoSizingType="HeightOnly" AutoSizingReferencePoint="TopCenterPoint" TextColumnCount="1" TextColumnFixedWidth="174">
+			<TextFramePreference TextColumnCount="1" TextColumnFixedWidth="174" TextColumnMaxWidth="0" AutoSizingType="HeightOnly" AutoSizingReferencePoint="TopCenterPoint">
 				<Properties>
 					<InsetSpacing type="list">
 						<ListItem type="unit">0</ListItem>
@@ -761,13 +761,13 @@
 					</InsetSpacing>
 				</Properties>
 			</TextFramePreference>
-			<TextWrapPreference TextWrapMode="None" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" Inverse="false">
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
 				<Properties>
 					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
 				</Properties>
 			</TextWrapPreference>
 		</TextFrame>
-		<TextFrame Self="u167" ParentStory="u155" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 123.11999999999995 -88.71312327292492" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<TextFrame Self="u167" ParentStory="u155" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" ItemTransform="1 0 0 1 123.11999999999995 -88.71312327292492" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="false">
@@ -780,13 +780,13 @@
 					</GeometryPathType>
 				</PathGeometry>
 			</Properties>
-			<ObjectExportOption SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" EpubType="$ID/" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
 				<Properties>
 					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 				</Properties>
 			</ObjectExportOption>
-			<TextFramePreference TextColumnMaxWidth="0" AutoSizingType="HeightOnly" AutoSizingReferencePoint="BottomCenterPoint" TextColumnCount="1" TextColumnFixedWidth="174" VerticalJustification="BottomAlign">
+			<TextFramePreference TextColumnCount="1" TextColumnFixedWidth="174" VerticalJustification="BottomAlign" TextColumnMaxWidth="0" AutoSizingType="HeightOnly" AutoSizingReferencePoint="BottomCenterPoint">
 				<Properties>
 					<InsetSpacing type="list">
 						<ListItem type="unit">0</ListItem>
@@ -796,13 +796,13 @@
 					</InsetSpacing>
 				</Properties>
 			</TextFramePreference>
-			<TextWrapPreference TextWrapMode="None" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" Inverse="false">
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
 				<Properties>
 					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
 				</Properties>
 			</TextWrapPreference>
 		</TextFrame>
-		<Rectangle Self="u16a" ContentType="GraphicType" StoryTitle="$ID/" OverriddenPageItemProps="" StrokeWeight="0.5" StrokeColor="Color/Black" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[None]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 -2.509999999999991 0.25" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<Rectangle Self="u16a" ContentType="GraphicType" StoryTitle="$ID/" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" StrokeWeight="0.5" StrokeColor="Color/Black" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[None]" ItemTransform="1 0 0 1 -2.509999999999991 0.25" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="false">
@@ -815,20 +815,20 @@
 					</GeometryPathType>
 				</PathGeometry>
 			</Properties>
-			<ObjectExportOption SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" EpubType="$ID/" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
 				<Properties>
 					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 				</Properties>
 			</ObjectExportOption>
-			<TextWrapPreference TextWrapMode="None" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" Inverse="false">
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
 				<Properties>
 					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
 				</Properties>
 			</TextWrapPreference>
 			<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
 		</Rectangle>
-		<TextFrame Self="u17e" ParentStory="u16c" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 397.55999999999995 -10.879999999999995" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<TextFrame Self="u17e" ParentStory="u16c" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" ItemTransform="1 0 0 1 397.55999999999995 -10.879999999999995" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="false">
@@ -841,13 +841,13 @@
 					</GeometryPathType>
 				</PathGeometry>
 			</Properties>
-			<ObjectExportOption SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" EpubType="$ID/" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
 				<Properties>
 					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 				</Properties>
 			</ObjectExportOption>
-			<TextFramePreference TextColumnMaxWidth="0" TextColumnCount="1" TextColumnFixedWidth="357.00000000000006" VerticalJustification="BottomAlign">
+			<TextFramePreference TextColumnCount="1" TextColumnFixedWidth="357.00000000000006" VerticalJustification="BottomAlign" TextColumnMaxWidth="0">
 				<Properties>
 					<InsetSpacing type="list">
 						<ListItem type="unit">0</ListItem>
@@ -857,13 +857,13 @@
 					</InsetSpacing>
 				</Properties>
 			</TextFramePreference>
-			<TextWrapPreference TextWrapMode="None" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" Inverse="false">
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
 				<Properties>
 					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
 				</Properties>
 			</TextWrapPreference>
 		</TextFrame>
-		<TextFrame Self="u194" ParentStory="u182" PreviousTextFrame="n" NextTextFrame="u1aa" ContentType="TextType" OverriddenPageItemProps="" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 396.11999999999995 189.82000000000005" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<TextFrame Self="u194" ParentStory="u182" PreviousTextFrame="n" NextTextFrame="u1aa" ContentType="TextType" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" ItemTransform="1 0 0 1 396.11999999999995 189.82000000000005" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="false">
@@ -876,13 +876,13 @@
 					</GeometryPathType>
 				</PathGeometry>
 			</Properties>
-			<ObjectExportOption SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" EpubType="$ID/" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
 				<Properties>
 					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 				</Properties>
 			</ObjectExportOption>
-			<TextFramePreference TextColumnMaxWidth="0" TextColumnCount="1" TextColumnGutter="8.64" TextColumnFixedWidth="173.99999999999994">
+			<TextFramePreference TextColumnCount="1" TextColumnGutter="8.64" TextColumnFixedWidth="173.99999999999994" TextColumnMaxWidth="0">
 				<Properties>
 					<InsetSpacing type="list">
 						<ListItem type="unit">0</ListItem>
@@ -892,13 +892,13 @@
 					</InsetSpacing>
 				</Properties>
 			</TextFramePreference>
-			<TextWrapPreference TextWrapMode="None" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" Inverse="false">
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
 				<Properties>
 					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
 				</Properties>
 			</TextWrapPreference>
 		</TextFrame>
-		<TextFrame Self="u1aa" ParentStory="u182" PreviousTextFrame="u194" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 579.1199999999999 87.82000000000004" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<TextFrame Self="u1aa" ParentStory="u182" PreviousTextFrame="u194" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" ItemTransform="1 0 0 1 579.1199999999999 87.82000000000004" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="false">
@@ -911,13 +911,13 @@
 					</GeometryPathType>
 				</PathGeometry>
 			</Properties>
-			<ObjectExportOption SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" EpubType="$ID/" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
 				<Properties>
 					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 				</Properties>
 			</ObjectExportOption>
-			<TextFramePreference TextColumnMaxWidth="0" TextColumnCount="1" TextColumnGutter="8.64" TextColumnFixedWidth="173.9999999999999">
+			<TextFramePreference TextColumnCount="1" TextColumnGutter="8.64" TextColumnFixedWidth="173.9999999999999" TextColumnMaxWidth="0">
 				<Properties>
 					<InsetSpacing type="list">
 						<ListItem type="unit">0</ListItem>
@@ -927,13 +927,13 @@
 					</InsetSpacing>
 				</Properties>
 			</TextFramePreference>
-			<TextWrapPreference TextWrapMode="None" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" Inverse="false">
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
 				<Properties>
 					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
 				</Properties>
 			</TextWrapPreference>
 		</TextFrame>
-		<TextFrame Self="u1c0" ParentStory="u1ae" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 396.11999999999995 192.22000000000008" ParentInterfaceChangeCount="138508 848374365 138558 81294522" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<TextFrame Self="u1c0" ParentStory="u1ae" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" ItemTransform="1 0 0 1 396.11999999999995 192.22000000000008" ParentInterfaceChangeCount="138508 848374365 138558 81294522" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="false">
@@ -946,13 +946,13 @@
 					</GeometryPathType>
 				</PathGeometry>
 			</Properties>
-			<ObjectExportOption SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" EpubType="$ID/" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
 				<Properties>
 					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 				</Properties>
 			</ObjectExportOption>
-			<TextFramePreference TextColumnMaxWidth="0" AutoSizingType="HeightOnly" AutoSizingReferencePoint="TopCenterPoint" TextColumnCount="1" TextColumnGutter="8.64" TextColumnFixedWidth="173.99999999999994">
+			<TextFramePreference TextColumnCount="1" TextColumnGutter="8.64" TextColumnFixedWidth="173.99999999999994" TextColumnMaxWidth="0" AutoSizingType="HeightOnly" AutoSizingReferencePoint="TopCenterPoint">
 				<Properties>
 					<InsetSpacing type="list">
 						<ListItem type="unit">0</ListItem>
@@ -962,13 +962,13 @@
 					</InsetSpacing>
 				</Properties>
 			</TextFramePreference>
-			<TextWrapPreference TextWrapMode="BoundingBoxTextWrap" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" Inverse="false">
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="BoundingBoxTextWrap">
 				<Properties>
 					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
 				</Properties>
 			</TextWrapPreference>
 		</TextFrame>
-		<TextFrame Self="u1d7" ParentStory="u1c5" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" LocalDisplaySetting="Default" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 396.11999999999995 267.82000000000005" ParentInterfaceChangeCount="138508 848374365 138558 81294522" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
+		<TextFrame Self="u1d7" ParentStory="u1c5" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" OverriddenPageItemProps="" Visible="true" Name="$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub1" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" ItemTransform="1 0 0 1 396.11999999999995 267.82000000000005" ParentInterfaceChangeCount="138508 848374365 138558 81294522" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="">
 			<Properties>
 				<PathGeometry>
 					<GeometryPathType PathOpen="false">
@@ -981,13 +981,13 @@
 					</GeometryPathType>
 				</PathGeometry>
 			</Properties>
-			<ObjectExportOption SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" EpubType="$ID/" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
 				<Properties>
 					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 				</Properties>
 			</ObjectExportOption>
-			<TextFramePreference TextColumnMaxWidth="0" TextColumnCount="1" TextColumnGutter="8.64" TextColumnFixedWidth="173.99999999999994" VerticalJustification="CenterAlign">
+			<TextFramePreference TextColumnCount="1" TextColumnGutter="8.64" TextColumnFixedWidth="173.99999999999994" VerticalJustification="CenterAlign" TextColumnMaxWidth="0">
 				<Properties>
 					<InsetSpacing type="list">
 						<ListItem type="unit">0</ListItem>
@@ -997,7 +997,7 @@
 					</InsetSpacing>
 				</Properties>
 			</TextFramePreference>
-			<TextWrapPreference TextWrapMode="BoundingBoxTextWrap" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" Inverse="false">
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="BoundingBoxTextWrap">
 				<Properties>
 					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
 				</Properties>
