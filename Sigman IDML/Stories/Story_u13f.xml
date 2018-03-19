@@ -20,6 +20,24 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
 				<Content>	Month #</Content>
 				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Calendar Event">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Calendar Sigma Event">
+				<Content>Initiation</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PageNumberType="TextVariable">
+				<TextVariableInstance Self="u44d" Name="Initiation Date" ResultText="Month #" AssociatedTextVariable="dTextVariablenInitiation Date" />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Calendar Event">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
 				<Content>University Event	Mon. # – Mon. #</Content>
 			</CharacterStyleRange>
 		</ParagraphStyleRange>

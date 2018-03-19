@@ -430,6 +430,39 @@
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
 			</Properties>
 		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/New Initiates Headline" Name="New Initiates Headline" Imported="false" NextStyle="ParagraphStyle/New Initiates Headline" SplitDocument="false" EmitCss="true" StyleUniqueId="dab87f35-a7c2-4f6f-ac43-f90754b1b523" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="19" SpaceAfter="2">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Headline</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/New Initiates Footer" Name="New Initiates Footer" Imported="false" NextStyle="ParagraphStyle/New Initiates Footer" SplitDocument="false" EmitCss="true" StyleUniqueId="766fa8a4-a361-41ce-b59d-ac7460b749a2" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Bold" Hyphenation="false" OTFFigureStyle="ProportionalOldstyle" Justification="CenterAlign">
+			<Properties>
+				<BasedOn type="string">$ID/[No paragraph style]</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<AppliedFont type="string">League Spartan</AppliedFont>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/New Initiates Subheader" Name="New Initiates Subheader" Imported="false" NextStyle="ParagraphStyle/New Initiates Subheader" SplitDocument="false" EmitCss="true" StyleUniqueId="bfd72602-d189-4172-a589-a7629cb8fab3" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Italic" Hyphenation="false" SpaceBefore="6" SpaceAfter="6" Justification="CenterAlign">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/New Initiate" Name="New Initiate" Imported="false" NextStyle="ParagraphStyle/New Initiate" SplitDocument="false" EmitCss="true" StyleUniqueId="c19ebdf7-4485-413a-99d7-aeb265be0e00" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" Hyphenation="false" OTFFigureStyle="TabularLining">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">RightAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">174</Position>
+					</ListItem>
+				</TabList>
+			</Properties>
+		</ParagraphStyle>
 	</RootParagraphStyleGroup>
 	<TOCStyle Self="TOCStyle/$ID/DefaultTOCStyleName" TitleStyle="ParagraphStyle/$ID/[No paragraph style]" Title="Contents" Name="$ID/DefaultTOCStyleName" RunIn="false" IncludeHidden="false" IncludeBookDocuments="false" CreateBookmarks="true" SetStoryDirection="Horizontal" NumberedParagraphs="IncludeFullParagraph" MakeAnchor="false" RemoveForcedLineBreak="false" />
 	<RootCellStyleGroup Self="u78">
