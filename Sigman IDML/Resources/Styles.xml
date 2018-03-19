@@ -307,13 +307,14 @@
 				<AppliedFont type="string">Linux Libertine O</AppliedFont>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Sport Schedule Header" Name="Sport Schedule Header" Imported="false" NextStyle="ParagraphStyle/Sport Schedule Header" SplitDocument="false" EmitCss="true" StyleUniqueId="057c1c1e-ae3c-462d-9961-bfd7690d8faf" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Italic" PointSize="12" SpaceBefore="2" SpaceAfter="2" Justification="CenterAlign">
+		<ParagraphStyle Self="ParagraphStyle/Sport Schedule Header" Name="Sport Schedule Header" Imported="false" NextStyle="ParagraphStyle/Sport Schedule Header" SplitDocument="false" EmitCss="true" StyleUniqueId="9bbe18d8-e81a-4088-b888-610e636a3f30" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Italic" Hyphenation="false" SpaceAfter="1" Justification="CenterAlign">
 			<Properties>
 				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<Leading type="unit">11</Leading>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Sport Schedule Footer" Name="Sport Schedule Footer" Imported="false" NextStyle="ParagraphStyle/Sport Schedule Footer" SplitDocument="false" EmitCss="true" StyleUniqueId="c0c07a12-fd23-4703-a517-5eb5e2ac0de4" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Italic" SpaceBefore="2" SpaceAfter="2" Justification="CenterAlign">
+		<ParagraphStyle Self="ParagraphStyle/Sport Schedule Footer" Name="Sport Schedule Footer" Imported="false" NextStyle="ParagraphStyle/Sport Schedule Footer" SplitDocument="false" EmitCss="true" StyleUniqueId="0dbb8075-78c3-4678-adbb-485787660c05" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Italic" Hyphenation="false" SpaceBefore="1" Justification="CenterAlign">
 			<Properties>
 				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
