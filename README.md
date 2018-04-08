@@ -91,7 +91,7 @@ this:
 
     2. In the “Find what” field, enter `\t(?=’\d\d$)`. This finds tab characters
     (`\t`) that are followed by a right single apostrophe (`’`) and two digits
-    (`\d`) at the end of a line `$`.
+    (`\d`) at the end of a line (`$`).
 
     3. In the “Change to” field, enter `~S`, which means a non-breaking space.
 
