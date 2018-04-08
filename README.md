@@ -256,12 +256,11 @@ _Michigan_ or _U‑M_. Don’t hyphenate _Interfraternity_.
 Thumbnails of issues of _The Sigman_ are shown in a Squarespace
 [gallery](https://support.squarespace.com/hc/en-us/articles/206543407) at
 http://lcamichigan.com/alumni-news#sigman. One way to make a thumbnail from a
-PDF file is to use
-[ImageMagick `convert`](https://www.imagemagick.org/script/convert.php).
+PDF file is to use [ImageMagick](https://imagemagick.org).
 
 ### On Windows
 
-The easiest way to install ImageMagick `convert` is probably through
+The easiest way to install ImageMagick is probably through
 [Chocolatey](https://chocolatey.org). To install Chocolatey, follow the
 instructions at https://chocolatey.org/install. After you install Chocolatey,
 enter in PowerShell or Command Prompt:
@@ -284,7 +283,7 @@ magick convert -trim -colorspace sRGB -thumbnail 300x -crop 300x300+0+0 "File pa
 
 ### On macOS
 
-The easiest way to install ImageMagick `convert` is probably through
+The easiest way to install ImageMagick is probably through
 [Homebrew](https://brew.sh). To install Homebrew, follow the instructions at
 https://brew.sh. After you install Homebrew, enter `brew install imagemagick` in
 Terminal.
