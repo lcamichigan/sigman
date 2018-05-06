@@ -40,7 +40,7 @@ can also [create your own](#creating-indesign-files).
     | [Damion](https://fonts.google.com/specimen/Damion)                       | https://github.com/google/fonts/raw/master/ofl/damion/Damion-Regular.ttf |
     | [Gillius](http://arkandis.tuxfamily.org/adffonts.html)                   | http://arkandis.tuxfamily.org/fonts/Gillius-Collection-20110312.zip      |
     | [League Spartan](https://www.theleagueofmoveabletype.com/league-spartan) | https://github.com/theleagueof/league-spartan/archive/master.zip         |
-    | [Linux Libertine](http://www.linuxlibertine.org) (OpenType version)      | http://mirrors.ctan.org/fonts/libertine.zip                              |
+    | [Linux Libertine](http://libertine-fonts.org) (OpenType version)         | http://mirrors.ctan.org/fonts/libertine.zip                              |
 
 ## Preparing an Issue
 
