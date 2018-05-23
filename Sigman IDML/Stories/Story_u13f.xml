@@ -21,8 +21,6 @@
 				<Content>	Month #</Content>
 				<Br />
 			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Calendar Event">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Calendar Sigma Event">
 				<Content>Initiation</Content>
 			</CharacterStyleRange>
@@ -34,10 +32,6 @@
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
 				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Calendar Event">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
 				<Content>University Event	Mon. # – Mon. #</Content>
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
