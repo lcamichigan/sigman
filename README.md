@@ -3,7 +3,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/91u8bs1bmmv0jwn4?svg=true)](https://ci.appveyor.com/project/lcamichigan/sigman)
 
 This is a collection of resources for creating issues of _The Sigman_, the
-newsletter of [Sigma Zeta of ΛΧΑ](http://lcamichigan.com).
+newsletter of [Sigma Zeta of ΛΧΑ](https://lcamichigan.com).
 
 ## Contents
 
@@ -255,8 +255,8 @@ _Michigan_ or _U‑M_. Don’t hyphenate _Interfraternity_.
 
 Thumbnails of issues of _The Sigman_ are shown in a Squarespace
 [gallery](https://support.squarespace.com/hc/en-us/articles/206543407) at
-http://lcamichigan.com/alumni-news#sigman. One way to make a thumbnail from a
-PDF file is to use [ImageMagick](https://imagemagick.org).
+https://lcamichigan.com/newsletter. One way to make a thumbnail from a PDF file
+is to use [ImageMagick](https://imagemagick.org).
 
 ### On Windows
 
@@ -349,7 +349,7 @@ zip --recurse-paths --no-dir-entries -X9 ../Sigman.idml * --exclude *.DS_Store m
 ## About _The Sigman_ Template
 
 _The Sigman_ template is based on issues of _The Sigman_ from 1939–46 (available
-at http://lcamichigan.com/alumni-news#sigman). The
+at https://lcamichigan.com/newsletter). The
 [nameplate](https://en.wikipedia.org/wiki/Nameplate_(publishing)) of these
 issues appears to be set in a form of
 [Caslon](https://en.wikipedia.org/wiki/Caslon) that’s similar to
