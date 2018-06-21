@@ -12,10 +12,13 @@ newsletter of [Sigma Zeta of ΛΧΑ](https://lcamichigan.com).
   * [Calendar](#calendar)
   * [Donor Honor Roll](#donor-honor-roll)
   * [Lost Brothers](#lost-brothers)
-* [Guidelines for Writing Articles](#guidelines-for-writing-articles)
-* [Creating a Thumbnail](#creating-a-thumbnail)
+* [Converting Raster Images of Signatures to Vector Images](#converting-raster-images-of-signatures-to-vector-images)
   * [On Windows](#on-windows)
   * [On macOS](#on-macos)
+* [Guidelines for Writing Articles](#guidelines-for-writing-articles)
+* [Creating a Thumbnail](#creating-a-thumbnail)
+  * [On Windows](#on-windows-1)
+  * [On macOS](#on-macos-1)
 * [Creating InDesign Files](#creating-indesign-files)
 * [About _The Sigman_ Template](#about-the-sigman-template)
 * [About the Envelope](#about-the-envelope)
@@ -162,6 +165,40 @@ initials of long names.
 To count lost brothers, select all of them, and then choose Windows > Info or
 press F8. The number of paragraphs is the number of lost brothers.
 
+## Converting Raster Images of Signatures to Vector Images
+
+In general, signatures for High Alpha letters must be converted from raster
+images to vector images. The easiest way to do this is probably using
+[Potrace](http://potrace.sourceforge.net).
+
+### On Windows
+
+To install Potrace on Windows, download a Windows distribution from
+http://potrace.sourceforge.net/#downloading and follow the instructions in
+http://potrace.sourceforge.net/README-WIN.
+
+To create a PDF file from an image named Signature.bmp (assuming the folder
+containing the Potrace executable is added to your Windows PATH), enter in
+PowerShell or Command Prompt:
+
+```
+potrace --backend pdf --output Signature.pdf --tight Signature.bmp
+```
+
+### On macOS
+
+[Homebrew]: https://brew.sh
+
+The easiest way to install Potrace is probably through [Homebrew]. To install
+Homebrew, follow the instructions at https://brew.sh. After you install
+Homebrew, enter `brew install potrace` in Terminal.
+
+To create a PDF file from an image named Signature.bmp, enter in Terminal:
+
+```sh
+potrace --backend pdf --output Signature.pdf --tight Signature.bmp
+```
+
 ## Guidelines for Writing Articles
 
 Unless you’re the chapter president writing the High Alpha letter, or the alumni
@@ -283,10 +320,9 @@ magick convert -trim -colorspace sRGB -thumbnail 300x -crop 300x300+0+0 "File pa
 
 ### On macOS
 
-The easiest way to install ImageMagick is probably through
-[Homebrew](https://brew.sh). To install Homebrew, follow the instructions at
-https://brew.sh. After you install Homebrew, enter `brew install imagemagick` in
-Terminal.
+The easiest way to install ImageMagick is probably through [Homebrew]. To
+install Homebrew, follow the instructions at https://brew.sh. After you install
+Homebrew, enter `brew install imagemagick` in Terminal.
 
 To create a thumbnail, enter in Terminal:
 
