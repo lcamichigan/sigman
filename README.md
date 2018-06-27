@@ -335,8 +335,8 @@ convert -trim -colorspace sRGB -thumbnail 300x -crop 300x300+0+0 'File path.pdf'
 Creating InDesign IDML files from the files in this repository requires the free
 [Zip](http://www.info-zip.org/Zip.html) utility. To install Zip on Windows:
 
-1. Click ftp://ftp.info-zip.org/pub/infozip/win32/zip300xn-x64.zip to download
-zip300xn-x64.zip.
+1. Download zip300xn-x64.zip from
+ftp://ftp.info-zip.org/pub/infozip/win32/zip300xn-x64.zip.
 
 2. Right-click zip300xn-x64.zip, choose Extract All, and then click Extract to
 extract a folder named zip300xn-x64.
