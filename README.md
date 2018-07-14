@@ -247,8 +247,8 @@ quotation mark in this case.
 
 * If you’re not writing a High Alpha or High Pi letter, avoid writing in the
 first person. If you need to refer to yourself in an article, use _this writer_
-or _this author_ instead of _me_ or _I_. Use _Sigma_, _the undergraduates_, or
-_the active chapter_ instead of _we_ or _us_.
+or _this author_ instead of _me_ or _I_. Use _Sigma_ or _the undergraduates_
+instead of _we_ or _us_.
 
 * Except when using _Sigma_ to refer to the chapter, avoid spelling out letters
 of the Greek alphabet:
