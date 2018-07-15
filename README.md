@@ -15,7 +15,8 @@ newsletter of [Sigma Zeta of ΛΧΑ](https://lcamichigan.com).
 * [Converting Raster Images of Signatures to Vector Images](#converting-raster-images-of-signatures-to-vector-images)
   * [On Windows](#on-windows)
   * [On macOS](#on-macos)
-* [Guidelines for Writing Articles](#guidelines-for-writing-articles)
+* [Guidelines for Articles](#guidelines-for-articles)
+* [Guidelines for Photos](#guidelines-for-photos)
 * [Creating a Thumbnail](#creating-a-thumbnail)
   * [On Windows](#on-windows-1)
   * [On macOS](#on-macos-1)
@@ -199,7 +200,7 @@ To create a PDF file from an image named Signature.bmp, enter in Terminal:
 potrace --backend pdf --output Signature.pdf --tight Signature.bmp
 ```
 
-## Guidelines for Writing Articles
+## Guidelines for Articles
 
 Unless you’re the chapter president writing the High Alpha letter, or the alumni
 advisor writing the occasional High Pi letter, you’re not writing a letter;
@@ -287,6 +288,40 @@ use _U of M_.
 first use, and then use the initialism only. Unless you’re writing about more
 than one Interfraternity Council, there’s no need to precede _IFC_ with
 _Michigan_ or _U‑M_. Don’t hyphenate _Interfraternity_.
+
+## Guidelines for Photos
+
+* If you’re unfamiliar with photographic composition, learn the
+[basics](https://lifehacker.com/5814174/basics-of-photography-composition-and-technique),
+especially the [rule of thirds](https://en.wikipedia.org/wiki/Rule_of_thirds)
+and [headroom](https://en.wikipedia.org/wiki/Headroom_(photographic_framing)). If
+your camera or phone can superimpose a grid over its viewfinder or screen, turn
+it on. In iOS 11 and later, you can turn on a grid in Settings > Camera.
+
+* Don’t use digital zoom. (On iPhones, for example, you can use pinch gestures
+to digitally zoom in; don’t do this.)
+
+* Because _The Sigman_ is usually 4 pages, very often just one photo of an event
+can be published. Remember to take photos that can summarize an event.
+
+* Use common sense. Don’t photograph people chewing food. Keep trash bins and
+anything resembling an alcoholic beverage out of the frame. Keep turned-on
+televisions out of the frame unless a television is integral to the event (as at
+an away game viewing party or a video game tournament).
+
+* Prefer photos of Sigma members, especially photos of undergraduate and alumni
+members together. Avoid taking photos that contain neither people nor the
+chapter house.
+
+* When photographing a group of people in conversation, place as many faces in
+the frame as possible.
+
+* Prefer candid to posed photos, but when posing people for a photo, ask people
+to remove name tags.
+
+* Make sure you can identify everyone in your photos. If you use an iPhone, the
+[Notes](https://support.apple.com/en-us/ht205773) app is a convenient way to
+keep track of names.
 
 ## Creating a Thumbnail
 
