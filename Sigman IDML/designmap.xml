@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <?aid style="50" type="document" readerVersion="6.0" featureSet="257" product="13.1(76)" ?>
-<Document xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="13.1" Self="d" StoryList="u111 u127 u1e4 u1fa u210 u13f u155 u16c u182 u245 u25b u1ae u1c5 u226 u2cb u30b u36e u3ad u3ca u3e6 u3fd u414 u42b u91" Name="Sigman.indd" ZeroPoint="0 0" ActiveLayer="ub1" CMYKProfile="U.S. Web Coated (SWOP) v2" RGBProfile="sRGB IEC61966-2.1" SolidColorIntent="UseColorSettings" AfterBlendingIntent="UseColorSettings" DefaultImageIntent="UseColorSettings" RGBPolicy="PreserveEmbeddedProfiles" CMYKPolicy="CombinationOfPreserveAndSafeCmyk" AccurateLABSpots="false">
+<Document xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="13.1" Self="d" StoryList="u111 u127 u1e4 u1fa u210 u13f u155 u16c u182 u245 u25b u1ae u1c5 u226 u2cb u30b u36e u3ad u3ca u3e6 u3fd u414 u42b u493 u4b2 u91" Name="Sigman.indd" ZeroPoint="0 0" ActiveLayer="ub1" CMYKProfile="U.S. Web Coated (SWOP) v2" RGBProfile="sRGB IEC61966-2.1" SolidColorIntent="UseColorSettings" AfterBlendingIntent="UseColorSettings" DefaultImageIntent="UseColorSettings" RGBPolicy="PreserveEmbeddedProfiles" CMYKPolicy="CombinationOfPreserveAndSafeCmyk" AccurateLABSpots="false">
 	<Properties>
 		<Label>
 			<KeyValuePair Key="kAdobeDPS_Version" Value="2" />
@@ -183,6 +183,8 @@
 	<idPkg:Story src="Stories/Story_u1e4.xml" />
 	<idPkg:Story src="Stories/Story_u127.xml" />
 	<idPkg:Story src="Stories/Story_u111.xml" />
+	<idPkg:Story src="Stories/Story_u4b2.xml" />
+	<idPkg:Story src="Stories/Story_u493.xml" />
 	<idPkg:Story src="Stories/Story_u3ca.xml" />
 	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.mgoblue.com" Name="http://www.mgoblue.com" DestinationURL="http://www.mgoblue.com" Hidden="false" DestinationUniqueKey="1" />
 	<Hyperlink Self="u299" Name="mgoblue.com" Source="u291" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="1">

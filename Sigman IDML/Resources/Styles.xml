@@ -97,6 +97,18 @@
 				<AppliedFont type="string">Linux Libertine O</AppliedFont>
 			</Properties>
 		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Masthead Director List Right Column" Name="Masthead Director List Right Column" Imported="false" NextStyle="ParagraphStyle/Masthead Director List Right Column" SplitDocument="false" EmitCss="true" StyleUniqueId="29cf5b5d-bc66-4b21-926f-d3b945954cda" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="8" OTFFigureStyle="ProportionalLining">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Masthead Director List Left Column" Name="Masthead Director List Left Column" Imported="false" NextStyle="ParagraphStyle/Masthead Director List Left Column" SplitDocument="false" EmitCss="true" StyleUniqueId="b55412af-a009-47a6-a0d4-f47cd0330734" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" Justification="RightAlign">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Masthead Director List Right Column</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</ParagraphStyle>
 		<ParagraphStyle Self="ParagraphStyle/Obituary" Name="Obituary" Imported="false" NextStyle="ParagraphStyle/Obituary" SplitDocument="false" EmitCss="true" StyleUniqueId="c755c1cf-5022-4fdc-bbfb-b2b0dff08902" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FirstLineIndent="0" Hyphenation="false" SpaceBefore="4" GridAlignment="None">
 			<Properties>
 				<BasedOn type="object">ParagraphStyle/Body Text</BasedOn>
@@ -170,26 +182,6 @@
 					</ListItem>
 				</TabList>
 				<ParagraphBorderType type="object">StrokeStyle/$ID/ThickThick</ParagraphBorderType>
-			</Properties>
-		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Masthead Director List" Name="Masthead Director List" Imported="false" NextStyle="ParagraphStyle/Masthead Director List" SplitDocument="false" EmitCss="true" StyleUniqueId="23d94c6c-8903-4852-a844-bdfad8b77abf" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="8" OTFFigureStyle="ProportionalLining">
-			<Properties>
-				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
-				<PreviewColor type="enumeration">Nothing</PreviewColor>
-				<TabList type="list">
-					<ListItem type="record">
-						<Alignment type="enumeration">RightAlign</Alignment>
-						<AlignmentCharacter type="string">.</AlignmentCharacter>
-						<Leader type="string"></Leader>
-						<Position type="unit">80</Position>
-					</ListItem>
-					<ListItem type="record">
-						<Alignment type="enumeration">LeftAlign</Alignment>
-						<AlignmentCharacter type="string">.</AlignmentCharacter>
-						<Leader type="string"></Leader>
-						<Position type="unit">94</Position>
-					</ListItem>
-				</TabList>
 			</Properties>
 		</ParagraphStyle>
 		<ParagraphStyle Self="ParagraphStyle/Masthead Body Text" Name="Masthead Body Text" Imported="false" NextStyle="ParagraphStyle/Masthead Body Text" SplitDocument="false" EmitCss="true" StyleUniqueId="62989a4d-6d54-4982-877e-476aa780154d" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" Hyphenation="false" Justification="CenterAlign">
