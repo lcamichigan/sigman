@@ -55,7 +55,7 @@ Here is where you can find dates of events to include in the calendar:
 | For these kinds of events | Visit                             |
 |---------------------------|-----------------------------------|
 | U‑M academics             | http://ro.umich.edu/calendar/     |
-| U‑M sports                | http://mgoblue.com                |
+| U‑M sports                | https://mgoblue.com               |
 | ΛΧΑ                       | https://www.lambdachi.org/events/ |
 
 ### Donor Honor Roll
