@@ -2,6 +2,18 @@
 <idPkg:Styles xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="13.1">
 	<RootCharacterStyleGroup Self="u73">
 		<CharacterStyle Self="CharacterStyle/$ID/[No character style]" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="828c75dd-f331-4950-aed8-6210621f917f" IncludeClass="true" Name="$ID/[No character style]" />
+		<CharacterStyle Self="CharacterStyle/Acronym" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="a6a9bcf3-2b87-4efd-b185-43c9d31144a3" IncludeClass="true" KeyboardShortcut="0 0" Name="Acronym" Capitalization="CapToSmallCap">
+			<Properties>
+				<BasedOn type="string">$ID/[No character style]</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</CharacterStyle>
+		<CharacterStyle Self="CharacterStyle/Academic Award Name" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="afd7e2b4-7f16-4743-afe7-3dd4d3c1d0ee" IncludeClass="true" KeyboardShortcut="0 0" Name="Academic Award Name" FontStyle="Italic">
+			<Properties>
+				<BasedOn type="string">$ID/[No character style]</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</CharacterStyle>
 		<CharacterStyle Self="CharacterStyle/Lost Brother Class Year" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="4bf39f98-9db3-46e1-acd7-e1464c4fd305" IncludeClass="true" KeyboardShortcut="0 0" Name="Lost Brother Class Year" FontStyle="Bold" OTFFigureStyle="ProportionalLining">
 			<Properties>
 				<BasedOn type="string">$ID/[No character style]</BasedOn>
@@ -193,6 +205,12 @@
 		<ParagraphStyle Self="ParagraphStyle/Body Text" Name="Body Text" Imported="false" NextStyle="ParagraphStyle/Body Text" SplitDocument="false" EmitCss="true" StyleUniqueId="159923c9-e242-4da5-ad36-c05bed4ff487" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FirstLineIndent="9" Justification="LeftJustified" GridAlignment="AlignBaseline">
 			<Properties>
 				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Academic Award List" Name="Academic Award List" Imported="false" NextStyle="ParagraphStyle/Academic Award List" SplitDocument="false" EmitCss="true" StyleUniqueId="957ad44f-b04a-44a1-82b1-a01abe754804" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FirstLineIndent="0" Hyphenation="false" SpaceBefore="2" GridAlignment="None">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Body Text</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
 			</Properties>
 		</ParagraphStyle>
@@ -453,6 +471,12 @@
 						<Position type="unit">174</Position>
 					</ListItem>
 				</TabList>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Academic Award List Name" Name="Academic Award List Name" Imported="false" NextStyle="ParagraphStyle/Academic Award List Name" SplitDocument="false" EmitCss="true" StyleUniqueId="fdd37bc2-0a0d-472b-8cb8-72d84de7fa95" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="8" FirstLineIndent="0" Hyphenation="false">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Body Text</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
 			</Properties>
 		</ParagraphStyle>
 	</RootParagraphStyleGroup>
