@@ -150,7 +150,7 @@
 				</TabList>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Lost Brothers Introduction" Name="Lost Brothers Introduction" Imported="false" NextStyle="ParagraphStyle/Lost Brothers Introduction" SplitDocument="false" EmitCss="true" StyleUniqueId="60feea2f-864c-455e-a43e-71aa2c83c10c" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" LeftIndent="5" Hyphenation="false" OTFFigureStyle="ProportionalLining">
+		<ParagraphStyle Self="ParagraphStyle/Lost Brothers Introduction" Name="Lost Brothers Introduction" Imported="false" NextStyle="ParagraphStyle/Lost Brothers Introduction" SplitDocument="false" EmitCss="true" StyleUniqueId="003aa01d-f435-4f73-9feb-c87fd0ef7786" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" LeftIndent="5" Hyphenation="false">
 			<Properties>
 				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
