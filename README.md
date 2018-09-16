@@ -248,8 +248,8 @@ quotation mark in this case.
 
 * If you’re not writing a High Alpha or High Pi letter, avoid writing in the
 first person. If you need to refer to yourself in an article, use _this writer_
-or _this author_ instead of _me_ or _I_. Use _Sigma_ or _the undergraduates_
-instead of _we_ or _us_.
+or _this author_ instead of _me_ or _I_. Use _Sigma_ or _the collegiate
+brothers_ instead of _we_ or _us_.
 
 * Except when using _Sigma_ to refer to the chapter, avoid spelling out letters
 of the Greek alphabet:
@@ -309,7 +309,7 @@ anything resembling an alcoholic beverage out of the frame. Keep turned-on
 televisions out of the frame unless a television is integral to the event (as at
 an away game viewing party or a video game tournament).
 
-* Prefer photos of Sigma members, especially photos of undergraduate and alumni
+* Prefer photos of Sigma members, especially photos of collegiate and alumni
 members together. Avoid taking photos that contain neither people nor the
 chapter house.
 
