@@ -94,8 +94,8 @@ this:
     dialog, and then click the GREP tab.
 
     2. In the “Find what” field, enter `\t(?=’\d\d$)`. This finds tab characters
-    (`\t`) that are followed by a right single apostrophe (`’`) and two digits
-    (`\d`) at the end of a line (`$`).
+    (`\t`) that are followed by a right single quotation mark (`’`) and two
+    digits (`\d`) at the end of a line (`$`).
 
     3. In the “Change to” field, enter `~S`, which means a non-breaking space.
 
@@ -148,7 +148,7 @@ Paragraph Styles, and then click the Clear Overrides button (looks like ¶\*).
     characters (`\t`) followed by four digits (`\d`) at the end of a line (`$`).
 
     3. In the “Change to” field, enter `~S’$1`. This replaces text with a
-    non-breaking space (`~S`), a right single apostrophe (`’`), and the two
+    non-breaking space (`~S`), a right single quotation mark (`’`), and the two
     digits found at the end of the line (`$1`).
 
     4. Click the Change Format box to show the Change Format Settings dialog,
@@ -234,8 +234,8 @@ Here are additional guidelines to keep in mind:
 * Paragraphs should be preceded by a single paragraph break; press Enter _once_
 to start new paragraphs.
 
-* Use a right single quotation mark (’), not a straight single quote (') or a
-left single quotation mark (‘), to abbreviate a year.
+* Use a right single quotation mark (’), not a straight single quotation mark
+(') or a left single quotation mark (‘), to abbreviate a year.
 
     _Correct:_ George Spasyk ’49
 
