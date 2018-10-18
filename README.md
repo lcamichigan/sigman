@@ -20,7 +20,6 @@ newsletter of [Sigma Zeta of ΛΧΑ](https://lcamichigan.com).
 * [Creating a Thumbnail](#creating-a-thumbnail)
   * [On Windows](#on-windows-1)
   * [On macOS](#on-macos-1)
-* [Creating InDesign Files](#creating-indesign-files)
 * [About _The Sigman_ Template](#about-the-sigman-template)
 * [About the Envelope](#about-the-envelope)
 
@@ -34,7 +33,7 @@ https://www.adobe.com/creativecloud/plans.html for more information.
 * Envelope.idml and Sigman.idml. The easiest way to get these files is to
 download them from
 https://ci.appveyor.com/project/lcamichigan/sigman/build/artifacts, but you
-can also [create your own](#creating-indesign-files).
+can also [create your own](https://github.com/lcamichigan/make-idml).
 
 * These fonts:
 
@@ -54,7 +53,7 @@ Here is where you can find dates of events to include in the calendar:
 
 | For these kinds of events | Visit                             |
 |---------------------------|-----------------------------------|
-| U‑M academics             | http://ro.umich.edu/calendar/     |
+| U‑M academics             | https://ro.umich.edu/calendars    |
 | U‑M sports                | https://mgoblue.com               |
 | ΛΧΑ                       | https://www.lambdachi.org/events/ |
 
@@ -170,7 +169,13 @@ press F8. The number of paragraphs is the number of lost brothers.
 
 In general, signatures for High Alpha letters must be converted from raster
 images to vector images. The easiest way to do this is probably using
-[Potrace](http://potrace.sourceforge.net).
+[Potrace](http://potrace.sourceforge.net). Once you install Potrace, you can
+create a PDF file from an image named Signature.bmp by entering in PowerShell,
+Command Prompt, or Terminal:
+
+```
+potrace --backend pdf --output Signature.pdf --tight Signature.bmp
+```
 
 ### On Windows
 
@@ -178,27 +183,13 @@ To install Potrace on Windows, download a Windows distribution from
 http://potrace.sourceforge.net/#downloading and follow the instructions in
 http://potrace.sourceforge.net/README-WIN.
 
-To create a PDF file from an image named Signature.bmp (assuming the folder
-containing the Potrace executable is added to your Windows PATH), enter in
-PowerShell or Command Prompt:
-
-```
-potrace --backend pdf --output Signature.pdf --tight Signature.bmp
-```
-
 ### On macOS
 
 [Homebrew]: https://brew.sh
 
 The easiest way to install Potrace is probably through [Homebrew]. To install
 Homebrew, follow the instructions at https://brew.sh. After you install
-Homebrew, enter `brew install potrace` in Terminal.
-
-To create a PDF file from an image named Signature.bmp, enter in Terminal:
-
-```sh
-potrace --backend pdf --output Signature.pdf --tight Signature.bmp
-```
+Homebrew, enter in Terminal `brew install potrace`.
 
 ## Guidelines for Articles
 
@@ -357,64 +348,12 @@ magick convert -trim -colorspace sRGB -thumbnail 300x -crop 300x300+0+0 "File pa
 
 The easiest way to install ImageMagick is probably through [Homebrew]. To
 install Homebrew, follow the instructions at https://brew.sh. After you install
-Homebrew, enter `brew install imagemagick` in Terminal.
+Homebrew, enter in Terminal `brew install imagemagick`.
 
 To create a thumbnail, enter in Terminal:
 
 ```sh
 convert -trim -colorspace sRGB -thumbnail 300x -crop 300x300+0+0 'File path.pdf'[0] 'File path.png'
-```
-
-## Creating InDesign Files
-
-Creating InDesign IDML files from the files in this repository requires the free
-[Zip](http://www.info-zip.org/Zip.html) utility. To install Zip on Windows:
-
-1. Download zip300xn-x64.zip from
-ftp://ftp.info-zip.org/pub/infozip/win32/zip300xn-x64.zip.
-
-2. Right-click zip300xn-x64.zip, choose Extract All, and then click Extract to
-extract a folder named zip300xn-x64.
-
-3. Right-click zip300xn-x64.zip in the zip300xn-x64 folder you just extracted,
-choose Extract All, and then click Extract to extract another folder named
-zip300xn-x64.
-
-4. Move this second zip300xn-x64 folder to C:\Program Files.
-
-Zip is included with macOS.
-
-To create InDesign files, first download this repository as a ZIP archive. To do
-this, click [here](https://github.com/lcamichigan/sigman/archive/master.zip).
-Unzip the archive wherever you wish. Then, `cd` to the
-[Envelope IDML](Envelope%20IDML) folder and enter in PowerShell
-
-```powershell
-& "$env:ProgramFiles\zip300xn-x64\zip" -X0 ..\Envelope.idml mimetype
-& "$env:ProgramFiles\zip300xn-x64\zip" --recurse-paths --no-dir-entries -X9 ..\Envelope.idml * --exclude mimetype
-Set-Location '..\Sigman IDML'
-& "$env:ProgramFiles\zip300xn-x64\zip" -X0 ..\Sigman.idml mimetype
-& "$env:ProgramFiles\zip300xn-x64\zip" --recurse-paths --no-dir-entries -X9 ..\Sigman.idml * --exclude mimetype
-```
-
-or in Command Prompt
-
-```batch
-"%ProgramFiles%\zip300xn-x64\zip" -X0 ..\Envelope.idml mimetype
-"%ProgramFiles%\zip300xn-x64\zip" --recurse-paths --no-dir-entries -X9 ..\Envelope.idml * --exclude mimetype
-cd "..\Sigman IDML"
-"%ProgramFiles%\zip300xn-x64\zip" -X0 ..\Sigman.idml mimetype
-"%ProgramFiles%\zip300xn-x64\zip" --recurse-paths --no-dir-entries -X9 ..\Sigman.idml * --exclude mimetype
-```
-
-or in Terminal
-
-```sh
-zip -X0 ../Envelope.idml mimetype
-zip --recurse-paths --no-dir-entries -X9 ../Envelope.idml * --exclude *.DS_Store mimetype
-cd '..\Sigman IDML'
-zip -X0 ../Sigman.idml mimetype
-zip --recurse-paths --no-dir-entries -X9 ../Sigman.idml * --exclude *.DS_Store mimetype
 ```
 
 ## About _The Sigman_ Template
@@ -451,7 +390,7 @@ The envelope includes an embedded image of a cross and crescent created using a
 [cross-and-crescent package](https://github.com/lcamichigan/cross-and-crescent)
 in LaTeX. To create this image,
 [install](https://github.com/lcamichigan/cross-and-crescent#installing) the
-cross-and-crescent package, and then enter in PowerShell or Terminal
+cross-and-crescent package, and then enter in PowerShell or Terminal:
 
 ```sh
 latex -jobname logo -output-format pdf '\documentclass{standalone}\usepackage{cross-and-crescent}\begin{document}\begin{tikzpicture}[scale=45bp/8cm]\crossAndCrescentSetMacros\draw[line width=0.5bp]\crossAndCrescentPath\end{tikzpicture}\end{document}'
