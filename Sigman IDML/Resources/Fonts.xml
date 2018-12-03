@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<idPkg:Fonts xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="13.1">
+<idPkg:Fonts xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="14.0">
 	<FontFamily Self="di39" Name="Minion Pro">
 		<Font Self="di39FontnMinion Pro Regular" FontFamily="Minion Pro" Name="Minion Pro Regular" PostScriptName="MinionPro-Regular" Status="Installed" FontStyleName="Regular" FontType="OpenTypeCFF" WritingScript="0" FullName="Minion Pro" FullNameNative="Minion Pro" FontStyleNameNative="Regular" PlatformName="$ID/" Version="Version 2.112;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.5900" TypekitID="$ID/" />
 		<Font Self="di39FontnMinion Pro Cond" FontFamily="Minion Pro" Name="Minion Pro Cond" PostScriptName="MinionPro-Cn" Status="Substituted" FontStyleName="Cond" FontType="OpenTypeCFF" WritingScript="0" FullName="Minion Pro Cond" FullNameNative="Minion Pro Cond" FontStyleNameNative="Cond" PlatformName="$ID/" Version="Version 2.015;PS 002.000;Core 1.0.38;makeotf.lib1.7.9032" TypekitID="$ID/" />
