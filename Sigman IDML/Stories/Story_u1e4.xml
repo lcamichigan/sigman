@@ -116,8 +116,8 @@
 							<GeometryPathType PathOpen="false">
 								<PathPointArray>
 									<PathPointType Anchor="-75.375 -30" LeftDirection="-75.375 -30" RightDirection="-75.375 -30" />
-									<PathPointType Anchor="-75.375 5.952727890014656" LeftDirection="-75.375 5.952727890014656" RightDirection="-75.375 5.952727890014656" />
-									<PathPointType Anchor="98.625 5.952727890014656" LeftDirection="98.625 5.952727890014656" RightDirection="98.625 5.952727890014656" />
+									<PathPointType Anchor="-75.375 5.952024435997017" LeftDirection="-75.375 5.952024435997017" RightDirection="-75.375 5.952024435997017" />
+									<PathPointType Anchor="98.625 5.952024435997017" LeftDirection="98.625 5.952024435997017" RightDirection="98.625 5.952024435997017" />
 									<PathPointType Anchor="98.625 -30" LeftDirection="98.625 -30" RightDirection="98.625 -30" />
 								</PathPointArray>
 							</GeometryPathType>
@@ -129,7 +129,7 @@
 							<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 						</Properties>
 					</ObjectExportOption>
-					<TextFramePreference TextColumnCount="2" TextColumnGutter="14" TextColumnFixedWidth="80" TextColumnMaxWidth="0" AutoSizingType="HeightOnly" AutoSizingReferencePoint="TopCenterPoint">
+					<TextFramePreference TextColumnCount="2" TextColumnGutter="10" TextColumnFixedWidth="82" TextColumnMaxWidth="0" AutoSizingType="HeightOnly" AutoSizingReferencePoint="TopCenterPoint">
 						<Properties>
 							<InsetSpacing type="list">
 								<ListItem type="unit">0</ListItem>
@@ -175,8 +175,8 @@
 							<GeometryPathType PathOpen="false">
 								<PathPointArray>
 									<PathPointType Anchor="-75.375 -30" LeftDirection="-75.375 -30" RightDirection="-75.375 -30" />
-									<PathPointType Anchor="-75.375 -22.433271407991604" LeftDirection="-75.375 -22.433271407991604" RightDirection="-75.375 -22.433271407991604" />
-									<PathPointType Anchor="98.625 -22.433271407991604" LeftDirection="98.625 -22.433271407991604" RightDirection="98.625 -22.433271407991604" />
+									<PathPointType Anchor="-75.375 -22.82210052012838" LeftDirection="-75.375 -22.82210052012838" RightDirection="-75.375 -22.82210052012838" />
+									<PathPointType Anchor="98.625 -22.82210052012838" LeftDirection="98.625 -22.82210052012838" RightDirection="98.625 -22.82210052012838" />
 									<PathPointType Anchor="98.625 -30" LeftDirection="98.625 -30" RightDirection="98.625 -30" />
 								</PathPointArray>
 							</GeometryPathType>
@@ -188,7 +188,7 @@
 							<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 						</Properties>
 					</ObjectExportOption>
-					<TextFramePreference TextColumnCount="2" TextColumnGutter="14" TextColumnFixedWidth="80" TextColumnMaxWidth="0" AutoSizingType="HeightOnly" AutoSizingReferencePoint="TopCenterPoint">
+					<TextFramePreference TextColumnCount="2" TextColumnGutter="10" TextColumnFixedWidth="82" TextColumnMaxWidth="0" AutoSizingType="HeightOnly" AutoSizingReferencePoint="TopCenterPoint">
 						<Properties>
 							<InsetSpacing type="list">
 								<ListItem type="unit">0</ListItem>
