@@ -103,11 +103,11 @@
 				<SameParaStyleSpacing type="enumeration">SetIgnore</SameParaStyleSpacing>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/$ID/NormalParagraphStyle" Name="$ID/NormalParagraphStyle" Imported="false" NextStyle="ParagraphStyle/$ID/NormalParagraphStyle" SplitDocument="false" EmitCss="true" StyleUniqueId="d05f6688-0a0b-476d-a258-a88d51d63d9c" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="10" OTFFigureStyle="ProportionalOldstyle">
+		<ParagraphStyle Self="ParagraphStyle/$ID/NormalParagraphStyle" Name="$ID/NormalParagraphStyle" Imported="false" NextStyle="ParagraphStyle/$ID/NormalParagraphStyle" SplitDocument="false" EmitCss="true" StyleUniqueId="51bacf43-3f98-4d27-a32d-c36c2c68712d" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="10" OTFFigureStyle="ProportionalOldstyle">
 			<Properties>
 				<BasedOn type="string">$ID/[No paragraph style]</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
-				<AppliedFont type="string">Linux Libertine O</AppliedFont>
+				<AppliedFont type="string">Libertinus Serif</AppliedFont>
 			</Properties>
 		</ParagraphStyle>
 		<ParagraphStyle Self="ParagraphStyle/Masthead Director List Right Column" Name="Masthead Director List Right Column" Imported="false" NextStyle="ParagraphStyle/Masthead Director List Right Column" SplitDocument="false" EmitCss="true" StyleUniqueId="29cf5b5d-bc66-4b21-926f-d3b945954cda" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="8" OTFFigureStyle="ProportionalLining">
@@ -303,19 +303,19 @@
 				<AppliedFont type="string">League Spartan</AppliedFont>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Image Source" Name="Image Source" Imported="false" NextStyle="ParagraphStyle/Image Source" SplitDocument="false" EmitCss="true" StyleUniqueId="b790b1ad-2389-40a3-8b3a-e66f9c7794ff" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Semibold" PointSize="6" Capitalization="AllCaps" OTFFigureStyle="ProportionalLining" Justification="RightAlign">
+		<ParagraphStyle Self="ParagraphStyle/Image Source" Name="Image Source" Imported="false" NextStyle="ParagraphStyle/Image Source" SplitDocument="false" EmitCss="true" StyleUniqueId="b7f852f3-e432-4b33-a2ba-43ed7b471d91" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Semibold" PointSize="6" Capitalization="AllCaps" OTFFigureStyle="ProportionalLining" Justification="RightAlign">
 			<Properties>
 				<BasedOn type="string">$ID/[No paragraph style]</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
 				<Leading type="unit">8</Leading>
-				<AppliedFont type="string">Linux Libertine O</AppliedFont>
+				<AppliedFont type="string">Libertinus Serif</AppliedFont>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Image Caption" Name="Image Caption" Imported="false" NextStyle="ParagraphStyle/Image Caption" SplitDocument="false" EmitCss="true" StyleUniqueId="ec42a13a-d58b-4263-8a1f-99d1d65ab8a4" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Bold" PointSize="10" OTFFigureStyle="ProportionalOldstyle" Justification="LeftJustified">
+		<ParagraphStyle Self="ParagraphStyle/Image Caption" Name="Image Caption" Imported="false" NextStyle="ParagraphStyle/Image Caption" SplitDocument="false" EmitCss="true" StyleUniqueId="ad16e74e-39d1-4c85-b238-b5ba448daf44" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Bold" PointSize="10" OTFFigureStyle="ProportionalOldstyle" Justification="LeftJustified">
 			<Properties>
 				<BasedOn type="string">$ID/[No paragraph style]</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
-				<AppliedFont type="string">Linux Libertine O</AppliedFont>
+				<AppliedFont type="string">Libertinus Serif</AppliedFont>
 			</Properties>
 		</ParagraphStyle>
 		<ParagraphStyle Self="ParagraphStyle/Sport Schedule Header" Name="Sport Schedule Header" Imported="false" NextStyle="ParagraphStyle/Sport Schedule Header" SplitDocument="false" EmitCss="true" StyleUniqueId="9bbe18d8-e81a-4088-b888-610e636a3f30" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Italic" Hyphenation="false" SpaceAfter="1" Justification="CenterAlign">
