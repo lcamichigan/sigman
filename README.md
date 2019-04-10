@@ -32,8 +32,8 @@ https://www.adobe.com/creativecloud/plans.html for more information.
 
 * Envelope.idml and Sigman.idml. The easiest way to get these files is to
 download them from
-https://ci.appveyor.com/project/lcamichigan/sigman/build/artifacts, but you
-can also [create your own](https://github.com/lcamichigan/make-idml).
+https://ci.appveyor.com/project/lcamichigan/sigman/build/artifacts, but you can
+also [create your own](https://github.com/lcamichigan/make-idml).
 
 * These fonts:
 
@@ -378,11 +378,11 @@ macOS High Sierra 10.13) at 48 pt with tracking at 200 thousandths of an em.
 
 Here are the fonts used in place of the originals:
 
-| This font                                                                | is used in place of  |
-|--------------------------------------------------------------------------|----------------------|
-| [Arvo](https://fonts.google.com/specimen/Arvo)                           | Memphis              |
-| [Damion](https://fonts.google.com/specimen/Damion)                       | Kaufmann             |
-| [League Spartan](https://www.theleagueofmoveabletype.com/league-spartan) | Spartan              |
+| This font                                                                | is used in place of |
+|--------------------------------------------------------------------------|---------------------|
+| [Arvo](https://fonts.google.com/specimen/Arvo)                           | Memphis             |
+| [Damion](https://fonts.google.com/specimen/Damion)                       | Kaufmann            |
+| [League Spartan](https://www.theleagueofmoveabletype.com/league-spartan) | Spartan             |
 
 ## About the Envelope
 
