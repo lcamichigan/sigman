@@ -11,7 +11,7 @@
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/New Initiates Subheader">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-				<Content>The next initiation is on </Content>
+				<Content>The next Initiation is on </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PageNumberType="TextVariable">
 				<TextVariableInstance Self="u440" Name="Initiation Date" ResultText="Month #" AssociatedTextVariable="dTextVariablenInitiation Date" />
