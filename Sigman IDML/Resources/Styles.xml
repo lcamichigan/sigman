@@ -388,7 +388,7 @@
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Honor Roll Headline" Name="Honor Roll Headline" Imported="false" NextStyle="ParagraphStyle/Honor Roll Headline" SplitDocument="false" EmitCss="true" StyleUniqueId="cbf2c25f-e92d-4290-b498-aecfc8dd1503" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="18" BaselineShift="-4" Capitalization="AllCaps" Hyphenation="false" SpaceAfter="10" Justification="CenterAlign">
+		<ParagraphStyle Self="ParagraphStyle/Honor Roll Headline" Name="Honor Roll Headline" Imported="false" NextStyle="ParagraphStyle/Honor Roll Headline" SplitDocument="false" EmitCss="true" StyleUniqueId="84dfe494-49da-471a-acd8-e40d8213827f" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="18" BaselineShift="-4" Capitalization="AllCaps" Hyphenation="false" Justification="CenterAlign">
 			<Properties>
 				<BasedOn type="string">$ID/[No paragraph style]</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
@@ -396,7 +396,7 @@
 				<AppliedFont type="string">Arvo</AppliedFont>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Honor Roll Introduction" Name="Honor Roll Introduction" Imported="false" NextStyle="ParagraphStyle/Honor Roll Introduction" SplitDocument="false" EmitCss="true" StyleUniqueId="61a087d9-514a-4b1f-9690-1d7c06b63df8" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" RightIndent="5">
+		<ParagraphStyle Self="ParagraphStyle/Honor Roll Text" Name="Honor Roll Text" Imported="false" NextStyle="ParagraphStyle/Honor Roll Text" SplitDocument="false" EmitCss="true" StyleUniqueId="7f56f969-53c2-41d2-8d77-6f51e251a77a" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" RightIndent="5" SpaceBefore="10">
 			<Properties>
 				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>

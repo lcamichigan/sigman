@@ -9,7 +9,7 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Honor Roll Introduction">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Honor Roll Text">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
 				<Content>Introduction</Content>
 				<Br />
