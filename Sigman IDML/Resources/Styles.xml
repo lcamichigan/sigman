@@ -480,7 +480,7 @@
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Donor Dedication" Name="Donor Dedication" Imported="false" NextStyle="ParagraphStyle/Donor Dedication" SplitDocument="false" EmitCss="true" StyleUniqueId="c1e3a55a-737a-49ef-992a-67231426f2c2" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Italic" LeftIndent="25">
+		<ParagraphStyle Self="ParagraphStyle/Donor Dedication" Name="Donor Dedication" Imported="false" NextStyle="ParagraphStyle/Donor Dedication" SplitDocument="false" EmitCss="true" StyleUniqueId="66eac856-8391-4512-8fa1-c1f45daf216c" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Italic" LeftIndent="25" OTFFigureStyle="ProportionalOldstyle">
 			<Properties>
 				<BasedOn type="object">ParagraphStyle/Donor</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
