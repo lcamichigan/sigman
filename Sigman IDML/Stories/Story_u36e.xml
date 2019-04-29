@@ -27,6 +27,12 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Donor Dedication">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Dedication</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Donation Category">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
 				<Content>$5,000 – $9,999</Content>

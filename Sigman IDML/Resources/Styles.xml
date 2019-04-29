@@ -480,6 +480,14 @@
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
 			</Properties>
 		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Donor Dedication" Name="Donor Dedication" Imported="false" NextStyle="ParagraphStyle/Donor Dedication" SplitDocument="false" EmitCss="true" StyleUniqueId="c1e3a55a-737a-49ef-992a-67231426f2c2" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Italic" LeftIndent="25">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Donor</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<TabList type="list">
+				</TabList>
+			</Properties>
+		</ParagraphStyle>
 	</RootParagraphStyleGroup>
 	<TOCStyle Self="TOCStyle/$ID/DefaultTOCStyleName" TitleStyle="ParagraphStyle/$ID/[No paragraph style]" Title="Contents" Name="$ID/DefaultTOCStyleName" RunIn="false" IncludeHidden="false" IncludeBookDocuments="false" CreateBookmarks="true" SetStoryDirection="Horizontal" NumberedParagraphs="IncludeFullParagraph" MakeAnchor="false" RemoveForcedLineBreak="false" />
 	<RootCellStyleGroup Self="u78">
