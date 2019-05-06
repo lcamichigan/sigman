@@ -24,12 +24,14 @@
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Donor">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
 				<Content>Σ	###	First M. Last ’YY</Content>
-				<Br />
 			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Donor Dedication">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-				<Content>Dedication</Content>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Donor Dedication">
+				<Content> — </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Donor Dedication" OTFFigureStyle="ProportionalOldstyle">
+				<Content>Dedication.</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" OTFFigureStyle="ProportionalOldstyle">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
