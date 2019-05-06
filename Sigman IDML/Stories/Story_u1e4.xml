@@ -84,7 +84,7 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Masthead Officer Subgroup Title">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Masthead First Officer Subgroup Title">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
 				<Content>Officers</Content>
 				<Br />

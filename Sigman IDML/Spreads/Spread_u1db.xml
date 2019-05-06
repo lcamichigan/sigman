@@ -177,10 +177,10 @@
 				<PathGeometry>
 					<GeometryPathType PathOpen="false">
 						<PathPointArray>
-							<PathPointType Anchor="-80.00000000000023 -31.5" LeftDirection="-80.00000000000023 -31.5" RightDirection="-80.00000000000023 -31.5" />
+							<PathPointType Anchor="-80.00000000000023 -28.5" LeftDirection="-80.00000000000023 -28.5" RightDirection="-80.00000000000023 -28.5" />
 							<PathPointType Anchor="-80.00000000000023 40.5" LeftDirection="-80.00000000000023 40.5" RightDirection="-80.00000000000023 40.5" />
 							<PathPointType Anchor="94 40.5" LeftDirection="94 40.5" RightDirection="94 40.5" />
-							<PathPointType Anchor="94 -31.5" LeftDirection="94 -31.5" RightDirection="94 -31.5" />
+							<PathPointType Anchor="94 -28.5" LeftDirection="94 -28.5" RightDirection="94 -28.5" />
 						</PathPointArray>
 					</GeometryPathType>
 				</PathGeometry>

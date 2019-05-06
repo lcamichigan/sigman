@@ -140,7 +140,7 @@
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Email List Reminder" Name="Email List Reminder" Imported="false" NextStyle="ParagraphStyle/Email List Reminder" SplitDocument="false" EmitCss="true" StyleUniqueId="f54814c8-6e02-422c-a353-d22c2ea53f3c" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FillColor="Color/U-M Maize" PointSize="30" Hyphenation="false" OTFFigureStyle="ProportionalOldstyle" Justification="CenterAlign">
+		<ParagraphStyle Self="ParagraphStyle/Email List Reminder" Name="Email List Reminder" Imported="false" NextStyle="ParagraphStyle/Email List Reminder" SplitDocument="false" EmitCss="true" StyleUniqueId="519dca5e-d3b9-418b-92e7-8229effcd21b" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FillColor="Color/U-M Maize" PointSize="28" Hyphenation="false" OTFFigureStyle="ProportionalOldstyle" Justification="CenterAlign">
 			<Properties>
 				<BasedOn type="string">$ID/[No paragraph style]</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
@@ -363,13 +363,19 @@
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
 			</Properties>
 		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Masthead First Officer Subgroup Title" Name="Masthead First Officer Subgroup Title" Imported="false" NextStyle="ParagraphStyle/Masthead First Officer Subgroup Title" SplitDocument="false" EmitCss="true" StyleUniqueId="97276f71-6355-41ed-bb9a-23b34d804354" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" SpaceBefore="0">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Masthead Officer Subgroup Title</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</ParagraphStyle>
 		<ParagraphStyle Self="ParagraphStyle/Masthead Separator" Name="Masthead Separator" Imported="false" NextStyle="ParagraphStyle/Masthead Separator" SplitDocument="false" EmitCss="true" StyleUniqueId="9bfa1572-85ee-4172-b6e8-b932f082e471" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" SpaceBefore="6" ParagraphBorderOn="true" ParagraphBorderTopOffset="4" ParagraphBorderTopLineWeight="0.5" ParagraphBorderBottomLineWeight="0" ParagraphBorderLeftLineWeight="0" ParagraphBorderRightLineWeight="0">
 			<Properties>
 				<BasedOn type="object">ParagraphStyle/Masthead Body Text</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Masthead Officer Group Title" Name="Masthead Officer Group Title" Imported="false" NextStyle="ParagraphStyle/Masthead Officer Group Title" SplitDocument="false" EmitCss="true" StyleUniqueId="a8e4c323-6089-4958-acf4-c2d9cfaddda6" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Semibold" Tracking="60" Capitalization="AllCaps">
+		<ParagraphStyle Self="ParagraphStyle/Masthead Officer Group Title" Name="Masthead Officer Group Title" Imported="false" NextStyle="ParagraphStyle/Masthead Officer Group Title" SplitDocument="false" EmitCss="true" StyleUniqueId="784060c9-f9e3-4220-9396-5766c0781152" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Semibold" Tracking="60" Capitalization="AllCaps" SpaceAfter="3">
 			<Properties>
 				<BasedOn type="object">ParagraphStyle/Masthead Separator</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
