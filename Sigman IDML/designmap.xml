@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <?aid style="50" type="document" readerVersion="6.0" featureSet="257" product="14.0(324)" ?>
-<Document xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="14.0" Self="d" StoryList="u111 u127 u1e4 u1fa u210 u13f u155 u16c u182 u245 u25b u1ae u1c5 u226 u2cb u30b u36e u3ad u3ca u3e6 u3fd u414 u42b u493 u4b2 u4d6 u50b u91" Name="Sigman.indd" ZeroPoint="0 0" ActiveLayer="ub1" CMYKProfile="U.S. Web Coated (SWOP) v2" RGBProfile="sRGB IEC61966-2.1" SolidColorIntent="UseColorSettings" AfterBlendingIntent="UseColorSettings" DefaultImageIntent="UseColorSettings" RGBPolicy="PreserveEmbeddedProfiles" CMYKPolicy="CombinationOfPreserveAndSafeCmyk" AccurateLABSpots="false">
+<Document xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="14.0" Self="d" StoryList="u111 u127 u1e4 u1fa u210 u13f u155 u16c u182 u245 u25b u1ae u1c5 u226 u2cb u30b u36e u3ad u3ca u3e6 u3fd u414 u42b u493 u4b2 u4d6 u50b u56e u586 u59d u91" Name="Sigman.indd" ZeroPoint="0 0" ActiveLayer="ub1" CMYKProfile="U.S. Web Coated (SWOP) v2" RGBProfile="sRGB IEC61966-2.1" SolidColorIntent="UseColorSettings" AfterBlendingIntent="UseColorSettings" DefaultImageIntent="UseColorSettings" RGBPolicy="PreserveEmbeddedProfiles" CMYKPolicy="CombinationOfPreserveAndSafeCmyk" AccurateLABSpots="false">
 	<Properties>
 		<Label>
 			<KeyValuePair Key="kAdobeDPS_Version" Value="2" />
@@ -162,6 +162,9 @@
 		<BuildingBlock Self="u28fBuildingBlock1" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
 	</CrossReferenceFormat>
 	<idPkg:BackingStory src="XML/BackingStory.xml" />
+	<idPkg:Story src="Stories/Story_u59d.xml" />
+	<idPkg:Story src="Stories/Story_u586.xml" />
+	<idPkg:Story src="Stories/Story_u56e.xml" />
 	<idPkg:Story src="Stories/Story_u4d6.xml" />
 	<idPkg:Story src="Stories/Story_u42b.xml" />
 	<idPkg:Story src="Stories/Story_u414.xml" />

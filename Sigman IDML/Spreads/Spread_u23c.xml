@@ -165,8 +165,8 @@
 						<PathPointArray>
 							<PathPointType Anchor="-178.5 -162" LeftDirection="-178.5 -162" RightDirection="-178.5 -162" />
 							<PathPointType Anchor="-178.5 162" LeftDirection="-178.5 162" RightDirection="-178.5 162" />
-							<PathPointType Anchor="178.5 162" LeftDirection="178.5 162" RightDirection="178.5 162" />
-							<PathPointType Anchor="178.5 -162" LeftDirection="178.5 -162" RightDirection="178.5 -162" />
+							<PathPointType Anchor="178.50000000000023 162" LeftDirection="178.50000000000023 162" RightDirection="178.50000000000023 162" />
+							<PathPointType Anchor="178.50000000000023 -162" LeftDirection="178.50000000000023 -162" RightDirection="178.50000000000023 -162" />
 						</PathPointArray>
 					</GeometryPathType>
 				</PathGeometry>
@@ -177,7 +177,7 @@
 					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
 				</Properties>
 			</ObjectExportOption>
-			<TextFramePreference TextColumnCount="2" TextColumnGutter="9" TextColumnFixedWidth="174" TextColumnMaxWidth="0">
+			<TextFramePreference TextColumnCount="2" TextColumnGutter="9" TextColumnFixedWidth="174.0000000000001" TextColumnMaxWidth="0">
 				<Properties>
 					<InsetSpacing type="list">
 						<ListItem type="unit">0</ListItem>

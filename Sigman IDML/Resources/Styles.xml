@@ -492,6 +492,33 @@
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
 			</Properties>
 		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/New Graduates Headline" Name="New Graduates Headline" Imported="false" NextStyle="ParagraphStyle/New Graduates Headline" SplitDocument="false" EmitCss="true" StyleUniqueId="0a33de41-15ab-4626-b9b5-4936404569a2" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="30" Justification="CenterAlign">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<AppliedFont type="string">Damion</AppliedFont>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/New Graduate" Name="New Graduate" Imported="false" NextStyle="ParagraphStyle/New Graduate" SplitDocument="false" EmitCss="true" StyleUniqueId="440b55d0-9b4e-4cec-bea1-55a6780571d6" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" Hyphenation="false" OTFFigureStyle="TabularLining" GridAlignment="AlignBaseline">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">RightAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">174</Position>
+					</ListItem>
+				</TabList>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/New Graduates Introduction" Name="New Graduates Introduction" Imported="false" NextStyle="ParagraphStyle/New Graduates Introduction" SplitDocument="false" EmitCss="true" StyleUniqueId="a759bdb7-66a4-4c20-bd58-9756983710ad" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" SpaceAfter="12" GridAlignment="None">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Body Text</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</ParagraphStyle>
 	</RootParagraphStyleGroup>
 	<TOCStyle Self="TOCStyle/$ID/DefaultTOCStyleName" TitleStyle="ParagraphStyle/$ID/[No paragraph style]" Title="Contents" Name="$ID/DefaultTOCStyleName" RunIn="false" IncludeHidden="false" IncludeBookDocuments="false" CreateBookmarks="true" SetStoryDirection="Horizontal" NumberedParagraphs="IncludeFullParagraph" MakeAnchor="false" RemoveForcedLineBreak="false" />
 	<RootCellStyleGroup Self="u78">
