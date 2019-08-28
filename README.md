@@ -329,7 +329,7 @@ instructions at https://chocolatey.org/install. After you install Chocolatey,
 enter in PowerShell or Command Prompt:
 
 ```
-choco install ghostscript.app imagemagick.tool -y
+choco install ghostscript.app imagemagick.tool
 ```
 
 To create a thumbnail, enter in PowerShell:
